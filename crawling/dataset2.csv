@@ -1,0 +1,769 @@
+,name,rows,cols,ub,link
+0,Telco Customer Churn,7043.0,21.0,8.82,https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+1,Customer Churn,3333.0,11.0,9.41,https://www.kaggle.com/datasets/barun2104/telecom-churn
+2,Bank Customer Churn,10000.0,18.0,10.00,https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn
+3,Customer Churn Dataset,64400.00000000001,12.0,10.00,https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset
+4,Bank Customer Churn Dataset,10000.0,12.0,10.00,https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset
+5,Customer Churn Dataset,10000.0,14.0,10.00,https://www.kaggle.com/datasets/anandshaw2001/customer-churn-dataset
+6,Bank Customer Churn Prediction,10000.0,14.0,10.00,https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction
+7,Bank Customer Churn Prediction,10000.0,14.0,9.71,https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction
+8,Customer Churn Prediction,5880.0,21.0,10.00,https://www.kaggle.com/datasets/rashadrmammadov/customer-churn-dataset
+9,Banking Customer Churn Prediction Dataset,10000.0,14.0,10.00,https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset
+10,Customer Churn Prediction:Analysis,1000.0,10.0,10.00,https://www.kaggle.com/datasets/abdullah0a/telecom-customer-churn-insights-for-analysis
+11,Telco Customer Churn,7043.0,33.0,8.82,https://www.kaggle.com/datasets/abdallahwagih/telco-customer-churn
+12,Churn for Bank Customers,10000.0,14.0,10.00,https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers
+13,Customer Churn Rate,10000.0,14.0,10.00,https://www.kaggle.com/datasets/divu2001/customer-churn-rate
+14,Bank Customers Churn,10000.0,14.0,9.71,https://www.kaggle.com/datasets/santoshd3/bank-customers
+15,Telco customer churn (11.1.3+),7043.0,50.0,10.00,https://www.kaggle.com/datasets/alfathterry/telco-customer-churn-11-1-3
+16,🙁📡 Telecom Customer Churn Prediction,7043.0,38.0,10.00,https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics
+17,Internet Service Provider Customer Churn,72300.0,11.0,10.00,https://www.kaggle.com/datasets/mehmetsabrikunt/internet-service-churn
+18,Tour & Travels Customer Churn Prediction,954.0,7.0,10.00,https://www.kaggle.com/datasets/tejashvi14/tour-travels-customer-churn-prediction
+19,Telco customer churn: IBM dataset,7043.0,33.0,7.65,https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset
+20,False,,,False,https://www.kaggle.com/datasets/borhanitrash/telco-customer-churn
+21,Bank Customer Churn Prediction,10000.0,14.0,7.65,https://www.kaggle.com/datasets/marslinoedward/bank-customer-churn-prediction
+22,Ecommerce Customer Churn Analysis and Prediction,5630.0,20.0,7.65,https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction
+23,Customer Churn,3150.0,16.0,5.29,https://www.kaggle.com/datasets/royjafari/customer-churn
+24,Telecom Churn Dataset,667.0,20.0,10.00,https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets
+25,Bank Customer Churn Dataset,10000.0,12.0,7.06,https://www.kaggle.com/datasets/bhuviranga/customer-churn-data
+26,Telecom customer,99600.0,100.0,7.06,https://www.kaggle.com/datasets/abhinav89/telecom-customer
+27,False,,,False,https://www.kaggle.com/datasets/pentakrishnakishore/bank-customer-churn-data
+28,Customer Churn Prediction Dataset,300.0,21.0,6.47,https://www.kaggle.com/datasets/ahmedgaitani/customer-churn-prediction-dataset
+29,Customer Churn,37000.0,24.0,7.65,https://www.kaggle.com/datasets/undersc0re/predict-the-churn-risk-rate
+30,Netflix Customer Churn dataset,5000.0,14.0,10.00,https://www.kaggle.com/datasets/abdulwadood11220/netflix-customer-churn-dataset
+31,Customer Churn,900.0,10.0,5.88,https://www.kaggle.com/datasets/hassanamin/customer-churn
+32,Online Retail Customer Churn Dataset,1000.0,15.0,7.06,https://www.kaggle.com/datasets/hassaneskikri/online-retail-customer-churn-dataset
+33,MTN Nigeria Customer Churn,974.0,17.0,10.00,https://www.kaggle.com/datasets/oluwademiladeadeniyi/mtn-nigeria-customer-churn
+34,Telco customer churn (11.1.3+),7043.0,33.0,5.88,https://www.kaggle.com/datasets/ylchang/telco-customer-churn-1113
+35,False,,,False,https://www.kaggle.com/datasets/beatafaron/telco-customer-churn-realistic-customer-feedback
+36,Gym customers features and churn,4000.0,14.0,8.82,https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn
+37,Bank Churn Dataset,110000.0,13.0,9.41,https://www.kaggle.com/datasets/rangalamahesh/bank-churn
+38,📱📶 Customers churned in telecom services,7043.0,20.0,10.00,https://www.kaggle.com/datasets/kapturovalexander/customers-churned-in-telecom-services
+39,JB Link Telco Customer Churn,7043.0,46.0,10.00,https://www.kaggle.com/datasets/johnflag/jb-link-telco-customer-churn
+40,Bank Customer Churn,116000.0,25.0,10.00,https://www.kaggle.com/datasets/sandiledesmondmfazi/bank-customer-churn
+41,🛒 E-commerce Customer Data For Behavior Analysis,250000.0,13.0,10.00,https://www.kaggle.com/datasets/shriyashjagtap/e-commerce-customer-for-behavior-analysis
+42,Bank Customer Attrition Insights,10000.0,18.0,10.00,https://www.kaggle.com/datasets/marusagar/bank-customer-attrition-insights
+43,Customer Churn Prediction Dataset,50000.0,7.0,10.00,https://www.kaggle.com/datasets/smayanj/customer-churn-prediction-dataset
+44,Sunborn - customer churn,100000.0,9.0,10.00,https://www.kaggle.com/datasets/zsinghrahulk/sunborn-customer-churn
+45,Why Do Customers Leave? Can You Spot the Churners?,7043.0,9.0,10.00,https://www.kaggle.com/datasets/hassanelfattmi/why-do-customers-leave-can-you-spot-the-churners
+46,data telco customer churn,4930.0,11.0,8.82,https://www.kaggle.com/datasets/reyhanarighy/data-telco-customer-churn
+47,Marketing Promotion Campaign Uplift Modelling,64000.0,9.0,10.00,https://www.kaggle.com/datasets/davinwijaya/customer-retention
+48,Customer Churn,10000.0,11.0,10.00,https://www.kaggle.com/datasets/willianoliveiragibin/customer-churn
+49,False,,,False,https://www.kaggle.com/datasets/samuelsemaya/e-commerce-customer-churn
+50,Credit Card Customer Churn Prediction,10000.0,14.0,2.94,https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction
+51,Telco Customer Churn,7043.0,21.0,5.88,https://www.kaggle.com/datasets/mustafaoz158/telco-customer-churn
+52,Telecom Customers,7043.0,21.0,8.82,https://www.kaggle.com/datasets/tarekmuhammed/telecom-customers
+53,Telco Customer Churn,7043.0,21.0,7.06,https://www.kaggle.com/datasets/ayberkural/telco-customer-churn
+54,Predictive Analytics for Customer Churn: Dataset,21.0,4.0,7.06,https://www.kaggle.com/datasets/safrin03/predictive-analytics-for-customer-churn-dataset
+55,Predicting Credit Card Customer Segmentation,10100.0,23.0,10.00,https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m
+56,Predicting Churn for Bank Customers,10000.0,14.0,1.76,https://www.kaggle.com/datasets/adammaus/predicting-churn-for-bank-customers
+57,Customer Churn,900.0,10.0,9.41,https://www.kaggle.com/datasets/ghassenkhaled/customer-churn
+58,Logisticregression telecomCustomer churmprediction,7042.0,9.0,5.88,https://www.kaggle.com/datasets/dileep070/logisticregression-telecomcustomer-churmprediction
+59,Churn Prediction of bank customers,10000.0,14.0,4.71,https://www.kaggle.com/datasets/sonalidasgupta95/churn-prediction-of-bank-customers
+60,Telco Customer Churn,7043.0,52.0,7.06,https://www.kaggle.com/datasets/sibelius5/telco-customer-churn
+61,Marketing Series: Customer Churn,544.0,20.0,9.12,https://www.kaggle.com/datasets/arashnic/marketing-series-customer-churn
+62,Churn Modeling Dataset,10000.0,14.0,9.41,https://www.kaggle.com/datasets/shivan118/churn-modeling-dataset
+63,Telecommunications Industry Customer churn dataset,7043.0,21.0,8.24,https://www.kaggle.com/datasets/aadityabansalcodes/telecommunications-industry-customer-churn-dataset
+64,User churn,7032.0,21.0,10.00,https://www.kaggle.com/datasets/mikhail1681/user-churn
+65,Churn Prediction for Credit Card Customer,10000.0,11.0,7.65,https://www.kaggle.com/datasets/mukeshmanral/churn-prediction-for-credit-card-customer
+66,False,,,False,https://www.kaggle.com/datasets/aadrika/customer-churn
+67,Telecom Churn Dataset,244000.0,14.0,8.82,https://www.kaggle.com/datasets/suraj520/telecom-churn-dataset
+68,💳 Financial Transactions Dataset: Analytics,6146.0,13.0,10.00,https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets
+69,Employee Attrition,49700.0,18.0,8.24,https://www.kaggle.com/datasets/HRAnalyticRepository/employee-attrition-data
+70,telecom churn (cell2cell),20000.0,58.0,6.47,https://www.kaggle.com/datasets/jpacse/datasets-for-churn-telecom
+71,Daily Happiness & Employee Turnover,4847.0,5.0,8.82,https://www.kaggle.com/datasets/harriken/employeeturnover
+72,IT Customer Chrun (Goal : Imbalanced Dataset),7043.0,20.0,9.71,https://www.kaggle.com/datasets/soheiltehranipour/it-customer-churn
+73,Large Customer Churn Analysis Dataset,1000.0,11.0,9.41,https://www.kaggle.com/datasets/hajraamir21/large-customer-churn-analysis-dataset
+74,Telcom customer churn,7043.0,21.0,1.76,https://www.kaggle.com/datasets/puja19/telcom-customer-churn
+75,Telecom Customer Churn,3333.0,21.0,7.65,https://www.kaggle.com/datasets/nushkaa/telecom-customer-churn
+76,Bank Customer Churn Prediction,10000.0,14.0,9.41,https://www.kaggle.com/datasets/murilozangari/customer-churn-from-a-bank
+77,Sales and Customer Insights Dataset,10000.0,15.0,10.00,https://www.kaggle.com/datasets/imranalishahh/sales-and-customer-insights
+78,Telco Customer Churn,7043.0,50.0,10.00,https://www.kaggle.com/datasets/rhonarosecortez/telco-customer-churn
+79,Shopping Trends And Customer Behaviour Dataset,3900.0,18.0,9.41,https://www.kaggle.com/datasets/sahilislam007/shopping-trends-and-customer-behaviour-dataset
+80,Churn Bank Customers AK,10000.0,14.0,6.47,https://www.kaggle.com/datasets/akelsayed/churn-bank-customers-ak
+81,Customer Churn Dataset,10000.0,11.0,4.12,https://www.kaggle.com/datasets/simranjitkhehra/customer-churn-dataset
+82,Bank Customer Churn,10000.0,14.0,8.24,https://www.kaggle.com/datasets/hemachandiranmurugan/bank-customer-churn
+83,📞 Telecom Customer Churn,7043.0,21.0,10.00,https://www.kaggle.com/datasets/mexwell/telecom-customer-churn
+84,Mobile Customer Churn Dataset,8550.0,33.0,7.06,https://www.kaggle.com/datasets/dyutidasmahaptra/mobile-customer-churn-dataset
+85,Churn Risk Rate - HackerEarth ML,5.0,2.0,8.82,https://www.kaggle.com/datasets/imsparsh/churn-risk-rate-hackerearth-ml
+86,Customer Dataset for Beginners,50.0,5.0,10.00,https://www.kaggle.com/datasets/aimack/customer
+87,Binary Classification of Bank Churn Synthetic Data,175000.0,25.0,10.00,https://www.kaggle.com/datasets/cybersimar08/binary-classification-of-bank-churn-synthetic-data
+88,Client churn rate in Telecom sector,3333.0,20.0,8.82,https://www.kaggle.com/datasets/sagnikpatra/edadata
+89,Telecom Churn clean dataset,3333.0,20.0,10.00,https://www.kaggle.com/datasets/mahmoudshaheen1134/telecom-churn-clean-dataset
+90,Customer-Churn-Dataset,7043.0,21.0,1.76,https://www.kaggle.com/datasets/girgismicheal/customerchurndataset
+91,Churn Bank Customer,10000.0,14.0,8.82,https://www.kaggle.com/datasets/kartiksaini18/churn-bank-customer
+92,Telecom Customer Churn Dataset,38.0,2.0,7.06,https://www.kaggle.com/datasets/shivam131019/telecom-churn-dataset
+93,JOB-A-THON - March 2022,2851.0,2.0,7.65,https://www.kaggle.com/datasets/gauravduttakiit/jobathon-march-2022
+94,False,,,False,https://www.kaggle.com/datasets/nithinreddy90/wa-fn-usec-telco-customer-churn
+95,Customer churn dataset,7043.0,21.0,1.76,https://www.kaggle.com/datasets/kirolosatef/customer-churn-dataset
+96,WA_Fn-UseC_-Telco-Customer-Churn,7043.0,21.0,1.76,https://www.kaggle.com/datasets/palashfendarkar/wa-fnusec-telcocustomerchurn
+97,HackerEarth: How NOT to lose a customer in 10 days,5.0,2.0,7.65,https://www.kaggle.com/datasets/parv619/hackerearth-how-not-to-lose-a-customer-in-10-days
+98,Customer Churn & Segmentation Dataset (Synthetic),2000.0,9.0,6.47,https://www.kaggle.com/datasets/efeyldz/customer-churn-and-segmentation-dataset-synthetic
+99,Customer Churn Telco,750.0,20.0,8.82,https://www.kaggle.com/datasets/nursyahrina/customer-churn-telco
+100,Airline Loyalty Program (Canada),2.0,3.0,10.00,https://www.kaggle.com/datasets/siddharth0935/airline-loyalty-program
+101,Customer Churn,1000.0,10.0,2.94,https://www.kaggle.com/datasets/ehsanbouji/customer-churn
+102,False,,,False,https://www.kaggle.com/datasets/k123vinod/insurance-churn-prediction-weekend-hackathon
+103,Bank Churn Dataset,110000.0,2.0,9.41,https://www.kaggle.com/datasets/harshitstark/dataset
+104,False,,,False,https://www.kaggle.com/datasets/erolmasimov/powerco
+105,Credit Card Customer Churn Prediction,7043.0,21.0,3.53,https://www.kaggle.com/datasets/mahmudulhaqueshawon/credit-card-customer-churn-prediction
+106,Marketing Insights for E-Commerce Company,1468.0,4.0,8.82,https://www.kaggle.com/datasets/rishikumarrajvansh/marketing-insights-for-e-commerce-company
+107,Netflix Users Database,25000.0,8.0,10.00,https://www.kaggle.com/datasets/smayanj/netflix-users-database
+108,customer churn,1000.0,6.0,2.35,https://www.kaggle.com/datasets/nmnbabbar/customer-churn
+109,Synthetic Telecom Customer Churn Data,650.0,14.0,9.41,https://www.kaggle.com/datasets/abdulrahmanqaten/synthetic-customer-churn
+110,bank_churn,110000.0,2.0,8.24,https://www.kaggle.com/datasets/bravo03/bank-churn
+111,Bank Customer Churn,10000.0,12.0,1.76,https://www.kaggle.com/datasets/adepvenugopal/telco-customer-churn
+112,Bank Churn (test),110000.0,13.0,8.24,https://www.kaggle.com/datasets/harshitstark/bank-churn-dataset-test
+113,Sample Telco Customer Churn Dataset,7011.0,21.0,7.65,https://www.kaggle.com/datasets/easonlai/sample-telco-customer-churn-dataset
+114,Synthetic Customer Analytics Dataset,100000.0,20.0,10.00,https://www.kaggle.com/datasets/siddharth0935/synthetic-customer-analytics-dataset
+115,Telecom Customer Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/moe5998/telecom-customer-churn
+116,Customer-churn-datasets,7043.0,21.0,4.12,https://www.kaggle.com/datasets/ranasarkar15/customerchurndatasets
+117,CDR-Call Details Record Dataset,101000.0,17.0,9.41,https://www.kaggle.com/datasets/anshulmehtakaggl/cdrcall-details-record-predict-telco-churn
+118,Churn Modelling - Classification Training,10000.0,14.0,8.24,https://www.kaggle.com/datasets/alyelbadry/churn-modelling-cluster-training
+119,Auto Insurance churn analysis dataset,1540000.0,7.0,8.82,https://www.kaggle.com/datasets/merishnasuwal/auto-insurance-churn-analysis-dataset
+120,Retail Sales and Customer Behavior Analysis,1000000.0,78.0,7.06,https://www.kaggle.com/datasets/utkalk/large-retail-data-set-for-eda
+121,Customer Churn - Decision Tree & Random Forest,7043.0,21.0,10.00,https://www.kaggle.com/datasets/vikramamin/customer-churn-decision-tree-and-random-forest
+122,Churn Modeling Bank,10000.0,14.0,10.00,https://www.kaggle.com/datasets/amirmotefaker/churn-modeling-bank
+123,CUSTOMER CHURN,7043.0,21.0,2.35,https://www.kaggle.com/datasets/rayenkhayat/customer-churn
+124,Customer Churn dataset for Life Insurance Industry,200000.0,12.0,4.71,https://www.kaggle.com/datasets/usmanfarid/customer-churn-dataset-for-life-insurance-industry
+125,False,,,False,https://www.kaggle.com/datasets/lclave/customer-churn
+126,Project Telecommunication Customer Churn,3333.0,17.0,4.12,https://www.kaggle.com/datasets/dhanushu2012/project-telecommunication-customer-churn
+127,Telecommunication Customer Churn Data,7043.0,21.0,5.88,https://www.kaggle.com/datasets/ebruiserisobay/telcods
+128,Customer Churn,64400.00000000001,12.0,4.71,https://www.kaggle.com/datasets/sohailaelsayed/customer-churn
+129,Customer Churn with explainable AI,10000.0,14.0,4.71,https://www.kaggle.com/datasets/teesoong/customer-churn-with-explainable-ai
+130,Digital Marketing | E-Commerce | Customer Behavior,,20.0,3.53,https://www.kaggle.com/datasets/ermismbatuhan/digital-marketing-ecommerce-customer-behavior
+131,Customer Churn Prediction Dataset,7043.0,21.0,1.76,https://www.kaggle.com/datasets/studymart/customer-churn-prediction
+132,False,,,False,https://www.kaggle.com/datasets/joy11117/customer-churn-dataset
+133,Bank Customer Churn Prediction,10000.0,14.0,1.76,https://www.kaggle.com/datasets/aarushikamboj/bank-customer-churn-prediction
+134,Bank Churn (train),165000.0,14.0,8.24,https://www.kaggle.com/datasets/harshitstark/bank-churn-train
+135,Customer-Churn,1343.0,1.0,3.53,https://www.kaggle.com/datasets/karamalhanatleh/customer-churn
+136,Practice Dataset Predict Customer Churn (Telecom),3333.0,11.0,6.47,https://www.kaggle.com/datasets/gaurangswarge/practice-dataset-predict-customer-churn-telecom
+137,Bank Customer Churn,158000.0,14.0,5.88,https://www.kaggle.com/datasets/cat-reloaded-data-science/bank-customer-churn
+138,Bank Churn Prediction,175000.0,25.0,10.00,https://www.kaggle.com/datasets/willianoliveiragibin/bank-churn-prediction
+139,EcommerceCustomerData,1000.0,11.0,8.24,https://www.kaggle.com/datasets/adityasingh01676/ecommercecustomerdata
+140,Customer Churn in Large Dataset,100000.0,9.0,5.29,https://www.kaggle.com/datasets/msarvesh/customer-churn-in-large-dataset
+141,Customer Churn Dataset,22100.0,21.0,2.35,https://www.kaggle.com/datasets/the0electronic0guy/customer-churn-dataset
+142,Customer Churn,3333.0,21.0,1.76,https://www.kaggle.com/datasets/jhskaggle/lecture04part2
+143,Customer Churn Prediction Analysis,91700.0,36.0,1.18,https://www.kaggle.com/datasets/huzaiftila/customer-churn-prediction-analysis
+144,Brazilian e-commerce company: OLIST,99400.0,5.0,10.00,https://www.kaggle.com/datasets/erak1006/brazilian-e-commerce-company-olist
+145,Internet Customer Churn,1409.0,20.0,2.94,https://www.kaggle.com/datasets/krishnanshverma/internet-customer-churn
+146,telecom_Churn,7043.0,21.0,5.88,https://www.kaggle.com/datasets/ritikasaini/telecom-churn
+147,Customer Churn Prediction Dataset,1000.0,6.0,9.41,https://www.kaggle.com/datasets/sahideseker/customer-churn-prediction-dataset
+148,Telco-customer-churn,7043.0,30.0,7.65,https://www.kaggle.com/datasets/singhnproud77/telcocustomerchurn
+149,bank customers churn,17855.0,12.0,5.88,https://www.kaggle.com/datasets/lashkingl/bank-customers-churn
+150,Customer Churn Dataset,10000.0,14.0,1.18,https://www.kaggle.com/datasets/sercanyesiloz/customer-churn-dataset
+151,Customer Churn Data,200.0,28.0,5.29,https://www.kaggle.com/datasets/aysenurdalfidan/customer-churn-data
+152,Telecommunications Industry Customer churn DB,2.0,2.0,5.88,https://www.kaggle.com/datasets/mezowahed/telecommunications-industry-customer-churn-db
+153,Customer churn dataset,11000.0,18.0,4.71,https://www.kaggle.com/datasets/zagroz901/customer-churn-dataset
+154,Credit card dataset for visualization,32.0,4.0,9.41,https://www.kaggle.com/datasets/peachji/credit-card-dataset
+155,Telecom Customer Churn Prediction,7043.0,21.0,0.59,https://www.kaggle.com/datasets/rjmanoj/telecom-customer-churn-prediction
+156,Customer Churn Dataset,7043.0,21.0,1.76,https://www.kaggle.com/datasets/divanshu22/customer-churn-dataset
+157,telecom churn dataset,100000.0,226.0,5.88,https://www.kaggle.com/datasets/datajameson/telecom-churn-dataset
+158,Flight_Analytics_Dataset,100.0,18.0,10.00,https://www.kaggle.com/datasets/goyaladi/flight-dataset
+159,Churn data,10000.0,14.0,6.47,https://www.kaggle.com/datasets/synful/churn-data
+160,Advanced Customer Churn Prediction,7043.0,21.0,8.82,https://www.kaggle.com/datasets/graceegbe12/advanced-customer-churn-prediction
+161,Telecom-Customer_Churn,7043.0,21.0,5.29,https://www.kaggle.com/datasets/lampubhutia/telecomcustomer-churn
+162,Customer Churn Prediction,1000.0,9.0,6.47,https://www.kaggle.com/datasets/saivamsir/customer-churn
+163,HR_Dataset,15000.0,10.0,3.53,https://www.kaggle.com/datasets/kadirduran/hr-dataset
+164,Databel Telecom Customer Churn Dataset,6687.0,29.0,1.76,https://www.kaggle.com/datasets/yichienchong/databel-telecom-customer-churn-dataset
+165,Bank customer churn,10000.0,14.0,1.76,https://www.kaggle.com/datasets/nrng19/bank-customer-churn
+166,BigQuery Churn Dataset,4250.0,21.0,10.00,https://www.kaggle.com/datasets/mustafakeser4/bigquery-churn-dataset
+167,telecom_churn_data,38.0,2.0,4.71,https://www.kaggle.com/datasets/santhraul/telecom-churn-data
+168,Analyzing Customer Churn and Its Impact on Revenue,750.0,6.0,9.41,https://www.kaggle.com/datasets/thedevastator/analyzing-customer-churn-and-its-impact-on-reven
+169,Customer Churn,10000.0,15.0,1.76,https://www.kaggle.com/datasets/ranjeetshrivastav/customer-churn
+170,bank customers and their churn behavior,10000.0,14.0,4.71,https://www.kaggle.com/datasets/sharanharsoor/bank-customers-and-their-churn-behavior
+171,Customer Churn,3333.0,21.0,1.76,https://www.kaggle.com/datasets/caojingw/customer-churn
+172,Customer Churn dataset for a Retail Industry,5630.0,20.0,2.35,https://www.kaggle.com/datasets/nastaranzandi/customer-churn-dataset-for-a-retail-industry
+173,Churn Data set,544.0,20.0,8.53,https://www.kaggle.com/datasets/abhigm/churn-data-set
+174,Spotify Customer Churn dataset,1000.0,10.0,9.41,https://www.kaggle.com/datasets/abdulwadood11220/spotify-customer-churn-dataset
+175,XYZ Bank Customer Churn,3999.0,14.0,9.41,https://www.kaggle.com/datasets/soumilmukhopadhyay/xyz-bank-customer-churn
+176,Telco Customer Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/engahmedelzoz/telco-customer-churn
+177,Telecom_Churn Details of Customer,7032.0,21.0,8.24,https://www.kaggle.com/datasets/hemachandiranmurugan/telecom-churn-details-of-customer
+178,Telco Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/birgulkilic/telco-customer-churn
+179,Telco-Customer-Churn,7043.0,21.0,1.76,https://www.kaggle.com/datasets/tarzon/telcocustomerchurn
+180,TeleCommunications,1000.0,12.0,4.71,https://www.kaggle.com/datasets/navins7/telecommunications
+181,churn_modelling,10000.0,14.0,4.12,https://www.kaggle.com/datasets/jssunmathi/churn-modelling
+182,Netflix Customer Churn and Engagement Dataset,1000.0,16.0,3.53,https://www.kaggle.com/datasets/dddtra/netflix-customer-churn-and-engagement-dataset
+183,Customer churn Dataset,10000.0,14.0,4.71,https://www.kaggle.com/datasets/pranjal323/customer-churn-dataset
+184,Churn Modelling,10000.0,14.0,7.65,https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling
+185,TelecomChurnInsights 2022,7043.0,21.0,5.88,https://www.kaggle.com/datasets/ashirzaki/telecomchurninsights
+186,Subscription Churn Dataset,963.0,21.0,8.82,https://www.kaggle.com/datasets/sameerhussain007/subscription-churn-dataset
+187,False,,,False,https://www.kaggle.com/datasets/dharun4772/powerco-churn-data
+188,Customer-Churn,7043.0,21.0,4.12,https://www.kaggle.com/datasets/sakshirajpura/customerchurn
+189,Telco Customer Churn - 2,4265.0,21.0,8.24,https://www.kaggle.com/datasets/davidlaya/telco-customer-churn-2
+190,Telecom Churn Dataset,100000.0,226.0,4.12,https://www.kaggle.com/datasets/ashishkumarsingh123/telecom-churn-dataset
+191,telecom-customer-churn,4250.0,20.0,1.76,https://www.kaggle.com/datasets/niramay/telecomcustomerchurn
+192,Telco Customer Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/calistadamara/telco-customer-churn
+193,Telecommunications Customer Churn,1409.0,52.0,2.35,https://www.kaggle.com/datasets/krishnanshverma/telecommunications-customer-churn
+194,Iranian Churn Dataset,3150.0,14.0,4.71,https://www.kaggle.com/datasets/alinoranianesfahani/iranian-churn-dataset
+195,E-Commerce Customer Analytics : Loyalty vs Fraud,5000.0,13.0,10.00,https://www.kaggle.com/datasets/sahilislam007/e-commerce-customer-analytics-loyalty-vs-fraud
+196,Expresso Churn Prediction Challenge,380000.0,2.0,4.71,https://www.kaggle.com/datasets/hamzaghanmi/expresso-churn-prediction-challenge
+197,Churn For Customer Bank,10000.0,14.0,2.94,https://www.kaggle.com/datasets/firmanwahyu/churn-for-customer-bank
+198,Telecom Churn Data,38.0,2.0,7.06,https://www.kaggle.com/datasets/hritikesinghrawat/telecom-churn-data
+199,Customer Churn Analysis,12900.0,22.0,1.18,https://www.kaggle.com/datasets/ramakrishnanthiyagu/customer-churn-analysis
+200,Telecom Customers Churn,7043.0,21.0,4.12,https://www.kaggle.com/datasets/mohamedhany777/telecom-customers-churn
+201,False,,,False,https://www.kaggle.com/datasets/kafayatyusuf/desktop
+202,Bank Churn Customer Analysis,,12.0,6.47,https://www.kaggle.com/datasets/akanshachomal/bank-churn-customer-analysis
+203,Customer Churn Analysis of Kiwibank,10000.0,13.0,5.88,https://www.kaggle.com/datasets/smmmmmmmmmmmm/customer-churn-analysis-of-kiwibank
+204,Bank Customer Churn,10000.0,18.0,2.94,https://www.kaggle.com/datasets/omaebelfeki/bank-customer-churn
+205,Customer Churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/chandueresu/customer-churn
+206,Tech Company Data (getlatka.com),527.0,47.0,7.06,https://www.kaggle.com/datasets/gjthompson1/tech-company-data-getlatkacom
+207,False,,,False,https://www.kaggle.com/datasets/waseemalastal/telco-customer-churn-ibm-dataset
+208,Network Provider Customer Churn Data,7043.0,21.0,2.94,https://www.kaggle.com/datasets/lokeshkum/network-provider-customer-churn-data
+209,Bank Churn Pre-processed Dataset,110000.0,2.0,10.00,https://www.kaggle.com/datasets/faizanyousafonly/bank-churn-pre-processed-dataset
+210,Churn Modelling (Bank Customer),10000.0,14.0,4.12,https://www.kaggle.com/datasets/muratcakmak/churn-modelling-bank-customer
+211,Online Retail Customer Churn Prediction Dataset,9000.0,17.0,9.41,https://www.kaggle.com/datasets/sahilislam007/online-retail-customer-churn-prediction-dataset
+212,Insurance Churn Prediction - Machine Hack,11300.0,16.0,7.06,https://www.kaggle.com/datasets/mukulsingh/insurance-churn-prediction
+213,Customer Churn Analysis Dataset,1000.0,11.0,5.88,https://www.kaggle.com/datasets/adityayadav01/customer-churn-analysis-dataset
+214,Telco Customer Churn,7042.0,9.0,7.06,https://www.kaggle.com/datasets/syedumeerr/telco-customer-churn
+215,telecom customer churn dataset,7043.0,21.0,2.94,https://www.kaggle.com/datasets/hajarkhagd/telecom-customer-churn-dataset
+216,telco customer churn dataset,7032.0,21.0,2.94,https://www.kaggle.com/datasets/hrishikeshjadhav/telco-customer-churn-dataset
+217,MembershipWoes,10400.0,15.0,6.47,https://www.kaggle.com/datasets/varshapandey/assignment-data
+218,Bank Turnover Dataset,10000.0,14.0,6.76,https://www.kaggle.com/datasets/barelydedicated/bank-customer-churn-modeling
+219,Telco Customer Churn Dataset,7043.0,21.0,2.35,https://www.kaggle.com/datasets/erayyuztyurk/telco-customer-churn-dataset
+220,Customer Churn,100.0,8.0,2.35,https://www.kaggle.com/datasets/malchielquaynor/customer-churn
+221,Customer Churn Dataset,7043.0,21.0,2.35,https://www.kaggle.com/datasets/tatagsuryopambudi/customer-churn-dataset
+222,Data for Analysis & Prediction,19900.0,12.0,5.88,https://www.kaggle.com/datasets/ayst13/flodata
+223,Telecom Churn Prediction,126.0,17.0,6.47,https://www.kaggle.com/datasets/sooryaprakash12/telecom-churn-prediction
+224,Employee Churn at Dunder Mifflin Paper Company,1543.0,17.0,10.00,https://www.kaggle.com/datasets/cocolicoq4/employee-churn-at-dunder-mifflin-paper-company
+225,telco customer churn data set,7043.0,21.0,2.94,https://www.kaggle.com/datasets/mohammedassad/telco-customer-churn-data-set
+226,Employee (Augmented),1000000.0,10.0,9.41,https://www.kaggle.com/datasets/mathurinache/employee-augmented
+227,Telco Customer churn data set,7043.0,33.0,1.76,https://www.kaggle.com/datasets/charanrajonline/telco-customer-churn-data-set
+228,Predict Customer Churn dataset,15000.0,10.0,3.53,https://www.kaggle.com/datasets/muhammadyasirsaleem/predict-customer-churn-dataset
+229,Telecom Churn Dataset,100000.0,226.0,7.06,https://www.kaggle.com/datasets/ezzzio/telecom-churn-data
+230,False,,,False,https://www.kaggle.com/datasets/rudravamshi/bank-customer-churn-model
+231,"Telecom Company Churn Rate, Call Center Data",7043.0,23.0,8.24,https://www.kaggle.com/datasets/datazng/telecom-company-churn-rate-call-center-data
+232,E-Corp Customer Satisfaction Data.,1989.0,11.0,10.00,https://www.kaggle.com/datasets/furykan/e-corp-dataset
+233,E-commerce churn dataset - Retail Rocket,2722.0,231.0,8.82,https://www.kaggle.com/datasets/fridrichmrtn/e-commerce-churn-dataset-retail-rocket
+234,BANK CUSTOMER CHURN,10000.0,13.0,3.53,https://www.kaggle.com/datasets/nitanttyagi/bank-customer-churn
+235,Telecom Churn Dataset,750.0,20.0,9.41,https://www.kaggle.com/datasets/arashnic/telecom-churn-dataset
+236,South Asian Churn dataset,2000.0,14.0,7.65,https://www.kaggle.com/datasets/mahreen/sato2015
+237,Bank Customer Churn,10000.0,14.0,1.76,https://www.kaggle.com/datasets/babuyashwanth/bank-customer-churn
+238,Telco Customer Churn (IBM),7043.0,23.0,7.65,https://www.kaggle.com/datasets/denisexpsito/telco-customer-churn-ibm
+239,False,,,False,https://www.kaggle.com/datasets/dyutimazumder/banking-customer-churn-analysis
+240,Barber Shop Frequency Data,13400.0,3.0,10.00,https://www.kaggle.com/datasets/fredericobaker/barber-shop-frequency-data
+241,BANK CUSTOMER CHURN DATA,10000.0,13.0,2.94,https://www.kaggle.com/datasets/pothulaswaraj/bank-customer-churn-data
+242,Bank Churn Dataset,116000.0,22.0,8.24,https://www.kaggle.com/datasets/navneetmuliya/bank-churn-dataset
+243,Telecom Churn Case Study,38.0,2.0,5.88,https://www.kaggle.com/datasets/venkatasubramanian/telecom-churn-case-study
+244,False,,,False,https://www.kaggle.com/datasets/jshadgriffin/auto-insurance-churn-data
+245,False,,,False,https://www.kaggle.com/datasets/ahersagarvilas/bank-customer-churn-model
+246,Telecom Customer Churn Data set,21.0,3.0,2.94,https://www.kaggle.com/datasets/sourabhpattanshetty/telecom-customer-churn-data-set
+247,s4e1 Original Data Extended,10000.0,18.0,5.29,https://www.kaggle.com/datasets/samvelkoch/s4e1-original-data-extended
+248,Telco customer churn IBM,5000.0,20.0,2.35,https://www.kaggle.com/datasets/geoamins/telco-customer-churn-ibm
+249,Customer Churn Prediction Dataset,1275.0,2.0,2.35,https://www.kaggle.com/datasets/ldausl/customer-churn-prediction-dataset
+250,Telecom Churn Case Study,36.0,2.0,7.65,https://www.kaggle.com/datasets/erak1006/telecom-churn-case-study-aditya
+251,Credit card customer churn,200000.0,7.0,4.12,https://www.kaggle.com/datasets/rishabsingh/credit-card-customer-churn
+252,Telco customer churn data,7043.0,21.0,4.12,https://www.kaggle.com/datasets/alexabiri/telco-customer-churn-data
+253,False,,,False,https://www.kaggle.com/datasets/reignrichard/telco-customer-churn-analysis-dashboard
+254,Retail dataset,8047.0,17.0,6.47,https://www.kaggle.com/datasets/braniac2000/retail-dataset
+255,Telecom Data,441000.0,12.0,6.47,https://www.kaggle.com/datasets/gandhimlengineer/telecom-data
+256,Customer churn,500.0,21.0,1.18,https://www.kaggle.com/datasets/aakaashraajm/customer-churn
+257,Customer Churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/firazztrk/customer-churn
+258,Telco-Customer-Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/peekabo0/telco-customer-churn
+259,DQLab Telco Final,6950.0,13.0,8.24,https://www.kaggle.com/datasets/samran98/customer-churn-telco-final
+260,Churn Classification,10000.0,14.0,6.47,https://www.kaggle.com/datasets/synful/churn-classification
+261,Club Data Set,10362.0,15.0,5.29,https://www.kaggle.com/datasets/sonannguyenngoc/club-data-set
+262,Customer Churn,10000.0,14.0,2.94,https://www.kaggle.com/datasets/sharooqfarzeenak/customer-churn
+263,Customer Churn.,3150.0,14.0,2.94,https://www.kaggle.com/datasets/zhengzhengml/customer-churn
+264,customer churn,10000.0,18.0,2.94,https://www.kaggle.com/datasets/msarvesh/customer-churn
+265,Customer Churn,750.0,2.0,2.94,https://www.kaggle.com/datasets/petetilavanya/customer-churn
+266,Customer Churn Dataset,10000.0,12.0,4.71,https://www.kaggle.com/datasets/prithviraj07/customer-churn-dataset
+267,Telcom Customer Churn,7043.0,21.0,1.76,https://www.kaggle.com/datasets/adepvenugopal/telcom-customer-churn
+268,Telecom Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/akshayalpha/telecom-customer-churn
+269,Telco-Customer-Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/ramanofthesky/telco-customer-churn
+270,telco customer churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/erhanalasar/telco-customer-churn
+271,📊 Synthetic TelCo Messy Dataset Churn Prediction,70000.0,21.0,9.41,https://www.kaggle.com/datasets/marwanehosni/synthetic-telco-messy-dataset-churn-prediction
+272,bank-customer-churn-data-modified-training-testing,441000.0,12.0,5.29,https://www.kaggle.com/datasets/fiazhussain66/bank-customer-churn-data-modified-training-testing
+273,churn prediction,10000.0,14.0,8.82,https://www.kaggle.com/datasets/krishnasince2005/churn-prediction
+274,custchurn,100000.0,9.0,9.41,https://www.kaggle.com/datasets/yajatmukhija/custchurn
+275,Bank Customer Churn,10000.0,14.0,4.12,https://www.kaggle.com/datasets/rubelmiads/bank-customer-churn
+276,Telecom customer churn,4815.0,17.0,4.12,https://www.kaggle.com/datasets/cesarayres/telecom-customer-churn
+277,🔮Churn Prediction: Unlocking Retention Secrets🔓,5000.0,26.0,10.00,https://www.kaggle.com/datasets/simronw/churn-prediction-unlocking-retention-secrets
+278,Telco-Customer-Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/mazenalattar/telco-customer-churn
+279,E-commerce churn dataset - REES46,113000.0,276.0,8.82,https://www.kaggle.com/datasets/fridrichmrtn/e-commerce-churn-dataset-rees46
+280,Customer Churn Dataset,7043.0,21.0,1.76,https://www.kaggle.com/datasets/hamidmehdi/customer-churn-dataset
+281,Customer churn of PowerCo.ltd,14600.0,26.0,7.65,https://www.kaggle.com/datasets/sharmadeepankaj/customer-churn-of-powerco-ltd
+282,False,,,False,https://www.kaggle.com/datasets/izzulnaimmm/analyzing-bank-customer-churn
+283,BongChoi Customer Churn Prediction Dataset,101000.0,12.0,9.41,https://www.kaggle.com/datasets/souradippal/bongchoi-customer-churn-prediction-dataset
+284,Cleaned_Brazilian_ECommerce_Data,112000.0,24.0,7.65,https://www.kaggle.com/datasets/sudhanshukumar50480/cleaned-brazilian-ecommerce-data
+285,Credit Card Churn Prediction,10100.0,23.0,7.06,https://www.kaggle.com/datasets/anwarsan/credit-card-bank-churn
+286,Customer Segmentation Dataset,10000.0,42.0,10.00,https://www.kaggle.com/datasets/palvinder2006/customer-dataset
+287,churn-modelling-score,2000.0,17.0,5.88,https://www.kaggle.com/datasets/lavagod/churn-modelling-score
+288,False,,,False,https://www.kaggle.com/datasets/aephidayatuloh/telco-customer-churn
+289,Telecom Customer Churn,15043.0,21.0,5.29,https://www.kaggle.com/datasets/akimthaav/telecommunication-customer-churn
+290,Customer Churn Dataset - Banking Industry,10000.0,14.0,6.47,https://www.kaggle.com/datasets/abisheakjacob/customer-churn-dataset-banking-industry
+291,UCI Bank Customer Churn Dataset,41200.0,21.0,6.47,https://www.kaggle.com/datasets/busradeveci/bank-churn
+292,False,,,False,https://www.kaggle.com/datasets/sounak131/bank-customer-churn-prediction
+293,Customer Churn,7043.0,21.0,1.76,https://www.kaggle.com/datasets/cryometa/customer-churn
+294,Customer Churn,7043.0,21.0,1.76,https://www.kaggle.com/datasets/rohitphatale/customer-churn
+295,customer churn,12126.0,22.0,1.76,https://www.kaggle.com/datasets/ahmedghonem01/customer-churn
+296,Telco-Customer-Churn.csv,7043.0,21.0,2.35,https://www.kaggle.com/datasets/tarun2k3/telco-customer-churn-csv
+297,Retail Business Intelligence Dataset,10000.0,3.0,8.82,https://www.kaggle.com/datasets/guimacrlh/dataset-vendas
+298,False,,,False,https://www.kaggle.com/datasets/abhijitssarkar/customerchurn
+299,Customer_churn_larger_dataset,100000.0,9.0,4.71,https://www.kaggle.com/datasets/shaileshkumar591/customer-churn-larger-dataset
+300,Telco Customer Churn Dataset,7043.0,21.0,4.71,https://www.kaggle.com/datasets/ojeikereomokhoje/telco-customer-churn-dataset
+301,WA_Fn-Usec_Telco-Customer-Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/nitinkharade/wa-fn-usec-telco-customer-churn
+302,Synthetic Customer Churn Dataset,5000.0,8.0,2.35,https://www.kaggle.com/datasets/mikrjj/synthetic-customer-churn-dataset
+303,HackerEarth's Churn Risk Rate Challenge,5.0,2.0,4.71,https://www.kaggle.com/datasets/rishabh6377/hackerearths-churn-risk-rate-challenge
+304,Credit Card Customer Churn Prediction using ANN,10000.0,14.0,2.35,https://www.kaggle.com/datasets/engsaiedali/credit-card-customer-churn-prediction-using-ann
+305,telco-customer-churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/zhiyuanchen/telcocustomerchurn
+306,telco-customer-churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/machariawaks/telcocustomerchurn
+307,Bank customer churn,10000.0,14.0,1.18,https://www.kaggle.com/datasets/pranaytelukuntla/bank-customer-churn
+308,Customer Churn Dataset,175000.0,25.0,1.18,https://www.kaggle.com/datasets/drnimishadavis/customer-churn-dataset
+309,Customer Churn Analysis Dataset,14600.0,26.0,6.47,https://www.kaggle.com/datasets/chayanroy3/customer-churn-analysis-dataset
+310,Telecom Customer Churn,7043.0,25.0,2.94,https://www.kaggle.com/datasets/mohamedhamdymady/telecom-customer-churn
+311,customer churn dataset,7043.0,23.0,2.94,https://www.kaggle.com/datasets/offwitt0/customer-churn-dataset
+312,customer-churn-dataset,7043.0,21.0,2.94,https://www.kaggle.com/datasets/dheerajetx/customer-churn-dataset
+313,Bank Customer Churn,10000.0,12.0,2.94,https://www.kaggle.com/datasets/scotthorning/bank-customer-churn
+314,Customer Churn Data,10000.0,14.0,2.94,https://www.kaggle.com/datasets/zhenruing/customer-churn-data
+315,TelEcom cUSTOMER CHURN,7043.0,21.0,2.94,https://www.kaggle.com/datasets/manjit0801/telecom-customer-churn
+316,Telco Customer Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/bernaded/telco-customer-churn
+317,Telco Customer Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/feryramadhanc/telco-customer-churn
+318,Bank customer churn,10000.0,14.0,2.94,https://www.kaggle.com/datasets/vipulsharma1631/bank-customer-churn
+319,Telco Customer Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/thatomaelane/telco-customer-churn
+320,Customer Churn Dataset,7043.0,21.0,2.94,https://www.kaggle.com/datasets/afiqmahba37/customer-churn-dataset
+321,Customer Churn Data,7043.0,21.0,2.94,https://www.kaggle.com/datasets/alimovaa/customer-churn-data
+322,Customer churn dataset,7043.0,11.0,2.94,https://www.kaggle.com/datasets/hectarcarson/customer-churn-dataset
+323,Orange_Telecom_Churn_Data,5000.0,21.0,3.53,https://www.kaggle.com/datasets/ghassenkhaled/orange-telecom-churn-data
+324,False,,,False,https://www.kaggle.com/datasets/syburg/customer-churn-prediction-telecom
+325,False,,,False,https://www.kaggle.com/datasets/sammwendwa/bank-customer-churn-analysis
+326,Telecom company dataset for customer churn,441000.0,12.0,4.12,https://www.kaggle.com/datasets/deepakkumar707/telecom-company-dataset-for-customer-churn
+327,SibAlfaHack,330000.0,89.0,10.00,https://www.kaggle.com/datasets/akscent/sibalfahack
+328,Telecom Churn Analysis Dataset,3333.0,21.0,5.88,https://www.kaggle.com/datasets/geetmukherjee/telecom-churn-analysis-dataset
+329,False,,,False,https://www.kaggle.com/datasets/zunorain/food-fi
+330,Ecommerce-customer-churn-data,5630.0,20.0,4.12,https://www.kaggle.com/datasets/upam22/ecommerce-customer-churn-data
+331,Customer Churn Prediction Dataset,1000.0,7.0,5.88,https://www.kaggle.com/datasets/ziya07/customer-churn-prediction-dataset
+332,False,,,False,https://www.kaggle.com/datasets/anthonytherrien/scikit-survival
+333,Model Fitness (customer churn),4000.0,14.0,2.94,https://www.kaggle.com/datasets/ellanihill/model-fitness-customer-churn
+334,Customer Churn Modelling Dataset,10000.0,14.0,2.94,https://www.kaggle.com/datasets/kanishknagpal/customer-churn-modelling-dataset
+335,CHURN_DATASET,667.0,20.0,5.88,https://www.kaggle.com/datasets/sunchuabhishek/churn-dataset
+336,Ghana Telecommunication Data 2023,1971.0,17.0,5.29,https://www.kaggle.com/datasets/freddiej/ghana-telecommunication-data-2023
+337,False,,,False,https://www.kaggle.com/datasets/namneeshkashyap/bank-customer-churn
+338,Investigating Customer Churn,6687.0,29.0,4.12,https://www.kaggle.com/datasets/muftau/investigating-customer-churn
+339,False,,,False,https://www.kaggle.com/datasets/yvonneg/presentation-deck-customer-churn
+340,Bank Churn Customer Prediction Dataset,9999.0,12.0,5.29,https://www.kaggle.com/datasets/ameenhasan/bank-churn-customer-prediction-dataset
+341,customer credit card churn,2532.0,34.0,1.76,https://www.kaggle.com/datasets/jaikishankumaraswamy/customer-credit-card-churn
+342,Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/shuvro00/customer-churn
+343,customer churn,4929.0,21.0,2.35,https://www.kaggle.com/datasets/ahmedmohmedbalta/customer-churn
+344,Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/charulathasanmathi/customer-churn
+345,Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/mazlumunay/customer-churn
+346,Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/abdulbasit200111/customer-churn
+347,customer churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/rohitraj9939/customer-churn
+348,False,,,False,https://www.kaggle.com/datasets/loneljuniorvodounou/customer-churn
+349,Customer-churn,3150.0,16.0,2.35,https://www.kaggle.com/datasets/im2cool/customer-churn
+350,Telecom Churn Predict,1000.0,9.0,5.88,https://www.kaggle.com/datasets/swarajkhan/telecom-churn-predict
+351,PowerCo dataset,16100.000000000002,32.0,7.06,https://www.kaggle.com/datasets/naiborhujosua/energy-industry
+352,False,,,False,https://www.kaggle.com/datasets/kevinespues/customer-churn-insights-excel-sql-tableau
+353,Customer Churn Prediction,7032.0,21.0,2.35,https://www.kaggle.com/datasets/amiribrahimtaj/customer-churn-dataset
+354,Customer-Churn-Records,10000.0,18.0,2.35,https://www.kaggle.com/datasets/kryusufkaya/customer-churn-records
+355,False,,,False,https://www.kaggle.com/datasets/ankurkumar7078/pwc-internship-projects
+356,Telecom Churn,230.0,6.0,6.47,https://www.kaggle.com/datasets/sarodeankur/telecom-churn
+357,Assessing Customer Churn Using Machine Learning,6500.0,10.0,3.53,https://www.kaggle.com/datasets/abdelazizsami/assessing-customer-churn-using-machine-learning
+358,False,,,False,https://www.kaggle.com/datasets/raodanish/exploring-customer-churn-in-the-banking-industry
+359,UrbanMart Transactions Dataset (2023-2024),50000.0,9.0,6.47,https://www.kaggle.com/datasets/xyzeys/urbanmart-transactions-dataset-2023-2024
+360,Telec customer churn,7043.0,21.0,3.53,https://www.kaggle.com/datasets/mohamedjamyl/telec-customer-churn
+361,Customer Churn Prediction,7043.0,21.0,3.53,https://www.kaggle.com/datasets/khizarsultan/customer-churn-prediction
+362,Teleco - Customer - Churn,7043.0,21.0,3.53,https://www.kaggle.com/datasets/achyuthmukund/teleco-customer-churn
+363,Telecom Customer Churn,5000.0,21.0,3.53,https://www.kaggle.com/datasets/asharma237/telecom-customer-churn
+364,WA_Fn-UseC_-Telco-Customer-Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/samkayyali/wa-fnusec-telcocustomerchurn
+365,Customer Churn Telecom Industry Dataset,244000.0,14.0,2.35,https://www.kaggle.com/datasets/shyambhojak1994/customer-churn-telecom-industry-dataset
+366,Customer churn warning and recovery,7043.0,21.0,2.35,https://www.kaggle.com/datasets/skygrace/customer-churn-warning-and-recovery
+367,WA_Fn-UseC_-Telco-Customer-Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/ditisolanki/wa-fn-usec-telco-customer-churn
+368,False,,,False,https://www.kaggle.com/datasets/sakshishr/telco-customer-churn-analysis
+369,False,,,False,https://www.kaggle.com/datasets/rajdeepkaurbajwa/telecom-data-analysis
+370,False,,,False,https://www.kaggle.com/datasets/arpanmondal2003/synthetic
+371,ML project : Customer churn,12400.0,20.0,1.18,https://www.kaggle.com/datasets/nattiponitp/ml-project-customer-churn
+372,HackerEarth: Customer Churn Score,5.0,2.0,1.18,https://www.kaggle.com/datasets/soumik11/hackerearth-customer-churn-score
+373,Bank Customer Churn Model,10000.0,13.0,1.18,https://www.kaggle.com/datasets/shashankmoon/bank-customer-churn-model
+374,False,,,False,https://www.kaggle.com/datasets/sumit08/powerco-company
+375,Customer_Churn_Prediction,10000.0,14.0,6.47,https://www.kaggle.com/datasets/moaazhammad/customer-churn-prediction
+376,churndata,10000.0,14.0,5.29,https://www.kaggle.com/datasets/emregur/churndata
+377,Grocery Customer Churn Dataset,35800.0,28.0,4.71,https://www.kaggle.com/datasets/abdulmoizrao/grocery-customer-churn-dataset
+378,Customer Churn Analysis Dataset,10000.0,18.0,4.71,https://www.kaggle.com/datasets/gregorykipngeno/customer-churn-analysis-dataset
+379,Customer-Churn-Records,10000.0,18.0,1.76,https://www.kaggle.com/datasets/nihelghennani/customer-churn-records
+380,customer-churn-ott,2000.0,16.0,1.76,https://www.kaggle.com/datasets/dvijkalsi/customer-churn-ott
+381,Telco-Customer-Churn,7043.0,21.0,1.76,https://www.kaggle.com/datasets/sjain5/telcocustomerchurn
+382,Bank Customer churn,10000.0,12.0,1.76,https://www.kaggle.com/datasets/amrutnikam/bank-customer-churn
+383,False,,,False,https://www.kaggle.com/datasets/abhinayguptaanalyst/telco-customer-churn-detailed-analysis-model
+384,Banking Customer Churn Prediction Dataset,10000.0,14.0,4.12,https://www.kaggle.com/datasets/sudenazonaran/banking-customer-churn-prediction-dataset
+385,Churn Prediction,7042.0,21.0,5.88,https://www.kaggle.com/datasets/mizan116/churn-prediction
+386,Telecom Customer Churn Prediction Dataset,7043.0,21.0,5.88,https://www.kaggle.com/datasets/sowmyakuruba/customer-churn-dataset
+387,Customer Churn Dataset,7043.0,21.0,2.94,https://www.kaggle.com/datasets/hardik1809/customer-churn-dataset
+388,False,,,False,https://www.kaggle.com/datasets/siddharthaborgohain/telecom-churn-case-study-using-ml
+389,False,,,False,https://www.kaggle.com/datasets/khaledaboelhassan/customer-churn-analysis
+390,Customer Segmentation,53500.0,20.0,7.65,https://www.kaggle.com/datasets/syntheticprogrammer/customer-segmentation
+391,"Customer Churn (Telecom) - LR, DT, RF and AUC",3333.0,11.0,9.41,https://www.kaggle.com/datasets/vikramamin/customer-churn-telecom-lr-dt-rf-and-auc
+392,Bank_ Customer_ Churn _Prediction_ Model_1,10000.0,14.0,1.18,https://www.kaggle.com/datasets/abrazlaskar/bank-customer-churn-prediction-model-1
+393,Telecom Customers Churn,7043.0,21.0,4.12,https://www.kaggle.com/datasets/andrawesashraffarouk/telecom-customers-churn
+394,Customer_Churn,10000.0,10.0,8.82,https://www.kaggle.com/datasets/rajagrawal7089/customer-churn
+395,Telco Customer Churn Prediction,7043.0,21.0,4.12,https://www.kaggle.com/datasets/ramasub78/telco-customer-churn-prediction
+396,False,,,False,https://www.kaggle.com/datasets/tiarasafa/customer-churn-prediction-using-machine-learning
+397,Customer Churn,7044.0,21.0,1.18,https://www.kaggle.com/datasets/luisurso/churn
+398,customer churn,3333.0,11.0,1.18,https://www.kaggle.com/datasets/syedmansooruddin/customer-churn
+399,Customer Churn,10000.0,14.0,1.18,https://www.kaggle.com/datasets/hardik1809/customer-churn
+400,Customer Churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/akritiupadhyayks/customer-churn
+401,customer churn,7043.0,9.0,1.18,https://www.kaggle.com/datasets/sadamhkhan/customer-churn
+402,Customer Churn,3333.0,11.0,1.18,https://www.kaggle.com/datasets/youssefelsawi/customer-churn
+403,customer churn,1409.0,20.0,1.18,https://www.kaggle.com/datasets/keirongreen/customer-churn
+404,customer churn,10000.0,18.0,1.18,https://www.kaggle.com/datasets/akash4144/customer-churn
+405,customer-churn,3150.0,14.0,1.18,https://www.kaggle.com/datasets/cyberpark7/customer-churn
+406,False,,,False,https://www.kaggle.com/datasets/sknaseerhussain/logistic-regression-for-telecom-churn
+407,Customer Transactions,542000.0,8.0,8.82,https://www.kaggle.com/datasets/agarwalyashhh/customer-transactions
+408,rbcchurndataset,2.0,2.0,3.53,https://www.kaggle.com/datasets/saadsalim997/rbcchurndataset
+409,Customer_Churn_Dataset,7043.0,21.0,2.94,https://www.kaggle.com/datasets/isapakistan/customer-churn-dataset
+410,WA_Fn-UseC_-Telco-Customer-Churn_new_ad,10300.0,21.0,4.71,https://www.kaggle.com/datasets/debu1dutta/wa-fn-usec-telco-customer-churn-new-ad
+411,False,,,False,https://www.kaggle.com/datasets/ravisankarvangala/telecom-churn-prediction
+412,E-commerce Customer Engagement,9508.0,23.0,6.47,https://www.kaggle.com/datasets/noir1112/e-commerce-customer-engagement
+413,Bank Dataset For Fairness,10000.0,15.0,6.47,https://www.kaggle.com/datasets/kushasahu/bank-dataset-for-fairness
+414,Multitable Ecommerce European Fashion,7.0,7.0,7.06,https://www.kaggle.com/datasets/joycemara/european-fashion-store-multitable-dataset
+415,Predicting Customer Churn,16100.000000000002,32.0,2.35,https://www.kaggle.com/datasets/faiqamehboob6191/datasciencetask2
+416,False,,,False,https://www.kaggle.com/datasets/codenamekash/predictcustomerchurn
+417,Telco Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/asingh2262000/telco-customer-churn
+418,Telco Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/vjc5505/telco-customer-churn
+419,False,,,False,https://www.kaggle.com/datasets/mohammadmaaz23/customer-churn-analysis
+420,Customer Behavior Churn,2000.0,17.0,2.35,https://www.kaggle.com/datasets/husyenali/customer-behavior-churn
+421,Customer Churn Prediction,10000.0,14.0,2.35,https://www.kaggle.com/datasets/nikhilgarg69/customer-churn-prediction
+422,Telco Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/duybuii/telco-customer-churn
+423,customer-churn-data,2000.0,16.0,2.35,https://www.kaggle.com/datasets/timur111/customer-churn-data
+424,Telco Customer Churn,750.0,2.0,2.35,https://www.kaggle.com/datasets/wangyansuo/telco-customer-churn
+425,Data Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/ishratamin/data-customer-churn
+426,Telco Customer Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/amanshaw101/telco-customer-churn
+427,Telco-Customer-Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/emreavcihalvetica/telco-customer-churn
+428,False,,,False,https://www.kaggle.com/datasets/jaschamillard/telecom-customer-churn
+429,Customer-Churn-Record,10000.0,18.0,2.35,https://www.kaggle.com/datasets/highseek19/customer-churn-record
+430,Bank Churn Prediction,10000.0,14.0,6.47,https://www.kaggle.com/datasets/bonginstates/bank-churn-prediction
+431,streaming_app_dataset,1000.0,12.0,5.29,https://www.kaggle.com/datasets/ttrngquangminh/streaming-app-dataset
+432,Amazon-Review,4915.0,12.0,5.88,https://www.kaggle.com/datasets/emreceliki/amazon-review
+433,False,,,False,https://www.kaggle.com/datasets/avazisoboev/bank-customer-churn-predictions-model
+434,False,,,False,https://www.kaggle.com/datasets/shahnawaj9/online-retail
+435,Telecom Customer Churn Dataset,7043.0,21.0,3.53,https://www.kaggle.com/datasets/qaiserrizvi/telecom-customer-churn-dataset
+436,Telecom Customer Churn Data,7043.0,21.0,3.53,https://www.kaggle.com/datasets/sandipjadhav4kaggle/telecom-customer-churn-data
+437,Telecom Customer Churn Analysis,7043.0,21.0,3.53,https://www.kaggle.com/datasets/lileejass/telecom-customer-churn-analysis
+438,Telecom Company Dataset - Logistic Regression,7042.0,22.0,4.12,https://www.kaggle.com/datasets/uddhavparab/telecom-company-dataset-logistic-regression
+439,False,,,False,https://www.kaggle.com/datasets/anosikeemmanuel/telecom-customer-churn-rate
+440,customer churn with missing values,7043.0,22.0,2.94,https://www.kaggle.com/datasets/rohitraj9939/customer-churn-with-missing-values
+441,WA_Fn-UseC_-Telco-Customer-Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/hossamfarhoud/wa-fn-usec-telco-customer-churn
+442,Customer Churn Dataset(Generated BY AI ),25000.0,26.0,2.94,https://www.kaggle.com/datasets/hanggoesdsaiml/customer-churn-datasetgenerated-by-ai
+443,Telco-Customer-Churn.csv,7043.0,21.0,1.18,https://www.kaggle.com/datasets/brahimerkan/telcocustomerchurncsv
+444,Telco-Customer-Churn2,7043.0,21.0,1.18,https://www.kaggle.com/datasets/alexalca/telcocustomerchurn2
+445,Mall Customer,200.0,5.0,10.00,https://www.kaggle.com/datasets/ramisashararnidhi/mall-customer-csv
+446,HackerEarth - Predict the churn risk rate,5.0,2.0,4.71,https://www.kaggle.com/datasets/dskagglemt/hackerearth-predict-the-churn-risk-rate
+447,Telco customer churn_new,7043.0,33.0,2.94,https://www.kaggle.com/datasets/yanesther/telco-customer-churn-new
+448,telco-customer-churn,7043.0,19.0,1.76,https://www.kaggle.com/datasets/justingunderson/telco-customer-churn
+449,Customer Churn (Telecom company) Dataset,750.0,2.0,1.76,https://www.kaggle.com/datasets/anjolaoluwaajayi/customer-churn-telecom-company-dataset
+450,Customer-Churn-Dataset,7043.0,9.0,0.59,https://www.kaggle.com/datasets/mostafaelhabashy/customer-churn-dataset
+451,Customer Analysis,1000.0,6.0,8.24,https://www.kaggle.com/datasets/mateusxavier/customer-analysis
+452,False,,,False,https://www.kaggle.com/datasets/arzooparihar/jio-telecom-churn-prediction
+453,Cleaned Churn,7010.0,27.0,5.29,https://www.kaggle.com/datasets/gokhanergul/cleaned-churn
+454,Bank Customer Churn Determiner Dataset,28508.0,21.0,4.12,https://www.kaggle.com/datasets/onajiteewhrudjakpor/bank-customer-churn-determiner-dataset
+455,False,,,False,https://www.kaggle.com/datasets/lifebricksglobal/llm-rag-chatbot-training-dataset
+456,False,,,False,https://www.kaggle.com/datasets/vishalpainjane/dataset101
+457,Telechurn,3333.0,21.0,6.47,https://www.kaggle.com/datasets/remonic97/telechurn
+458,Customer Information Dataset for Analysis,122.0,13.0,7.06,https://www.kaggle.com/datasets/salonimalpani/customer-information-dataset-for-analysis
+459,Customer Behavior and Purchase Dataset,103000.0,21.0,5.29,https://www.kaggle.com/datasets/timcii/clothing-store-sales-data
+460,FREECELL Telecom Customer Analytics,7043.0,9.0,5.29,https://www.kaggle.com/datasets/shartul/freecell-telecom-customer-analytics
+461,RFM-Ecommerce-data,398000.0,20.0,5.88,https://www.kaggle.com/datasets/sharathshebbar/rfm-ecommerce-data
+462,Streaming Service Data,5000.0,12.0,7.65,https://www.kaggle.com/datasets/akashanandt/streaming-service-data
+463,Credit Card Customer Churn Prediction,10000.0,14.0,3.53,https://www.kaggle.com/datasets/avinashbhardwaz/credit-card-customer-churn-prediction
+464,Telecom Customer Churn CSV File,7043.0,38.0,3.53,https://www.kaggle.com/datasets/tuhinkundu2025/telecom-customer-churn-csv-file
+465,Streaming Service Customer Churn Prediction,125000.0,20.0,3.53,https://www.kaggle.com/datasets/raghunandan9605/streaming-service-customer-churn-prediction
+466,Customer Churn Data Telecom,9990.0,6.0,2.35,https://www.kaggle.com/datasets/subhadipm/customer-churn-data-telecom
+467,Customer Churn Prediction Datasets,7043.0,21.0,2.35,https://www.kaggle.com/datasets/alaminbhuyan/customer-churn-prediction-datasets
+468,Customer Churn Rate Classifier,10000.0,14.0,2.35,https://www.kaggle.com/datasets/amritmth/customer-churn-rate-classifier
+469,Telco Customer Churn Dataset,667.0,20.0,2.35,https://www.kaggle.com/datasets/balsubra2501/telco-customer-churn-dataset
+470,Bank customer churn prediction,10000.0,2.0,2.35,https://www.kaggle.com/datasets/kavinp0301/bank-customer-churn-prediction
+471,Telco Customer Churn Analysis,7043.0,21.0,2.35,https://www.kaggle.com/datasets/isfaqueansari/telco-customer-churn-analysis
+472,Bank Customer Churn Prediction,10000.0,12.0,2.35,https://www.kaggle.com/datasets/parameswarrout/bank-customer-churn-prediction
+473,Customer Churn Dataset Classification,1000.0,9.0,2.35,https://www.kaggle.com/datasets/upparisridhar/customer-churn-dataset-classification
+474,Customer churn dataset,100000.0,9.0,1.18,https://www.kaggle.com/datasets/ayushnigam01/customer-churn-dataset
+475,Customer churn data,200.0,28.0,1.18,https://www.kaggle.com/datasets/aartimalitajane/customer-churn-data
+476,Customer Churn Predection,7043.0,21.0,1.18,https://www.kaggle.com/datasets/giridharbandarupalli/customer-churn-predection
+477,Customer Churn Analysis,99.0,21.0,1.18,https://www.kaggle.com/datasets/khushishah28k/customer-churn-analysis
+478,Telco-Customer-Churn,2099.0,21.0,1.18,https://www.kaggle.com/datasets/dbrownambi/telcocustomerchurn
+479,Telco-Customer-Churn,7032.0,12.0,1.18,https://www.kaggle.com/datasets/johnwilkenchristoper/telco-customer-churn
+480,Customer Churn Prediction,10000.0,14.0,1.18,https://www.kaggle.com/datasets/usmanabbsi088/customer-churn-prediction
+481,customer churn dataset,10000.0,14.0,1.18,https://www.kaggle.com/datasets/saravanankuppan/customer-churn-dataset
+482,Telco Customer Churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/fandanabil97/telco-customer-churn
+483,Customer Churn Data Infinite Investment Systems,111.0,3.0,2.94,https://www.kaggle.com/datasets/noahnguyen08/customer-churn-data-infinite-investment-systems
+484,Customer Churn,100000.0,9.0,0,https://www.kaggle.com/datasets/rohitsalla/customer-churn
+485,WA_Fn-UseC_-Telco-Customer-Churn.csv,7043.0,21.0,2.94,https://www.kaggle.com/datasets/maqeel732/wa-fn-usec-telco-customer-churn-csv
+486,"Sales, Product, and Customer Insight Repository",1000.0,12.0,4.71,https://www.kaggle.com/datasets/svbstan/sales-product-and-customer-insight-repository
+487,False,,,False,https://www.kaggle.com/datasets/amosshehzad/bank-churn-cleaned-dataset-model
+488,E COMMERCE DATASET,0.0,3.0,6.47,https://www.kaggle.com/datasets/codewithuday/amazon-smart-phone-products-data-2024
+489,Divvy_tripdata_Feb21Jan22,49600.0,13.0,10.00,https://www.kaggle.com/datasets/pragyanp/divvy-tripdata-feb21jan22
+490,False,,,False,https://www.kaggle.com/datasets/jordanln/llm-prompts-in-the-context-of-machine-learning
+491,Mortgate Customer Churn data: Predictive Modeling,308000.0,121.0,4.12,https://www.kaggle.com/datasets/chidi18/mortgate-customer-churn-data-predictive-modeling
+492,Feature Engineering Dataset,10000.0,7.0,9.41,https://www.kaggle.com/datasets/ajaysoni846546/feature-engineering-dataset
+493,Telco_Customer_Churn_Dataset,7043.0,21.0,3.53,https://www.kaggle.com/datasets/merveatasoy1/telco-customer-churn-dataset
+494,PwC Customer Retention Dashboard,7043.0,23.0,5.88,https://www.kaggle.com/datasets/rithikmurali/pwc-customer-retention-dashboard
+495,Credit_Card_Churn,10000.0,21.0,8.82,https://www.kaggle.com/datasets/kunalgp/credit-card-churn
+496,churndataset,7043.0,22.0,10.00,https://www.kaggle.com/datasets/emanafi/churndataset
+497,Customer_Churn_Dataset,7043.0,21.0,2.94,https://www.kaggle.com/datasets/vimlendusharma/customer-churn-dataset
+498,Advanced Telecom Churn prediction model,36.0,2.0,4.71,https://www.kaggle.com/datasets/rahulkashyap1996/advanced-telecom-churn-prediction-model
+499,False,,,False,https://www.kaggle.com/datasets/kunalgaike/customer-churn-prediction
+500,Customer-churn_telco,7043.0,21.0,2.35,https://www.kaggle.com/datasets/leelakrishnaprasad/customerchurn-telco
+501,Customer-Churn.csv,7043.0,21.0,2.35,https://www.kaggle.com/datasets/mazlumunay/customer-churn-csv
+502,Customer churn_ANN,2000.0,16.0,2.35,https://www.kaggle.com/datasets/srikanthreddymarri/customer-churn-ann
+503,Banking Dataset with Customer Churn Prediction,10000.0,14.0,3.53,https://www.kaggle.com/datasets/adwaitpurao/banking-dataset-with-customer-churn-prediction
+504,False,,,False,https://www.kaggle.com/datasets/ramasub78/telco-customer-churn-prediction-notebook
+505,Telecom Churn,7043.0,38.0,7.65,https://www.kaggle.com/datasets/mihailisman/telecom
+506,Telecom company Customer Churn Classification,705.0,20.0,2.35,https://www.kaggle.com/datasets/ruturajmarathe/telecom-company-customer-churn-classification
+507,Customer Churn With feedback dataset,7043.0,22.0,2.35,https://www.kaggle.com/datasets/nupraneethreddy/customer-churn-with-feedback-dataset
+508,Music Streaming Customer Churn Competition,7.0,2.0,2.35,https://www.kaggle.com/datasets/ltunbilly/music-streaming-customer-churn-competition
+509,WA_Fn-UseC_-Telco-Customer-Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/umeshtogadiya/wa-fn-usec-telco-customer-churn
+510,Customer_churn_prediction_with_notebook,3333.0,21.0,1.76,https://www.kaggle.com/datasets/yashtiwari1906/customer-churn-prediction-with-notebook
+511,False,,,False,https://www.kaggle.com/datasets/ayushsinghverma/bank-customer-churn-prediction
+512,False,,,False,https://www.kaggle.com/datasets/deborshibhattacharya/bank-customer-churn-model
+513,False,,,False,https://www.kaggle.com/datasets/dombaleumadevi/bank-customer-churn-data
+514,Telco-Customer-Churn.csv,7043.0,21.0,2.35,https://www.kaggle.com/datasets/ishratamin/telco-customer-churn-csv
+515,Bank Customer Churn Prediction,10000.0,12.0,1.18,https://www.kaggle.com/datasets/lkritika/bank-customer-churn-prediction
+516,Telecom Customer Churn Prediction,7043.0,21.0,1.18,https://www.kaggle.com/datasets/arjunselvamurugan555/telecom-customer-churn-prediction
+517,Telecom Customer Churn Dataset,499.0,12.0,1.18,https://www.kaggle.com/datasets/amaljoseph3377/telecom-customer-churn-dataset
+518,Newspaper churn,15855.0,19.0,4.12,https://www.kaggle.com/datasets/leiyiting01/newspaper-churn
+519,card churn customers/tech4dev project group13,10100.0,23.0,3.53,https://www.kaggle.com/datasets/hanatuangud/card-churn-customerstech4dev-project-group13
+520,Telco Churn,3333.0,33.0,4.12,https://www.kaggle.com/datasets/pangkw/telco-churn
+521,customer churn prediction data science project,5630.0,20.0,2.94,https://www.kaggle.com/datasets/mohsinali08000/customer-churn-prediction-data-science-project
+522,Online Retail E-Commerce Data,541910.0,8.0,4.71,https://www.kaggle.com/datasets/shravankanamadi/online-retail-e-commerce-data
+523,"Indian Stock Market, Stocks name, symbol(ticker)..",220.0,2.0,9.41,https://www.kaggle.com/datasets/yekahaaagayeham/stocks-listed-on-nifty-500-july-2021
+524,customer churn dataset.harsh,100000.0,9.0,0,https://www.kaggle.com/datasets/harshgupta179/customer-churn-datasetharsh
+525,E-Commerce Dataset,5630.0,20.0,5.88,https://www.kaggle.com/datasets/anaghapaul/e-commerce-dataset
+526,Customer Purchase Data,1500.0,9.0,6.47,https://www.kaggle.com/datasets/presheepresh/customer-purchase-data
+527,Customer Churn Dataset for Telecom,2089.0,12.0,1.76,https://www.kaggle.com/datasets/mehmetertas/customer-churn-prediction
+528,churnbank,10000.0,14.0,5.88,https://www.kaggle.com/datasets/dostonur/churnbank
+529,Banking Churn Modelling,10000.0,14.0,6.47,https://www.kaggle.com/datasets/amithsompalli/banking-churn-modelling
+530,Bank Customer Churn(anonymous real data),1000.0,12.0,2.35,https://www.kaggle.com/datasets/zisuhuang/bank-customer-churnanonymous-real-data
+531,Telecom Churn Dataset,6418.0,32.0,5.88,https://www.kaggle.com/datasets/nguyenduongthanhthuy/telecom-churn-dataset
+532,Churn Data,11260.0,19.0,2.94,https://www.kaggle.com/datasets/rakeshswaminathan/churn-data
+533,WA_Fn-UseC_-Telco-Customer-Churn.csv,7043.0,21.0,2.35,https://www.kaggle.com/datasets/aniket715/wa-fn-usec-telco-customer-churn-csv
+534,Technical Support NPS Data,20200.0,9.0,9.41,https://www.kaggle.com/datasets/jasonlukeball/technical-support-nps-data
+535,The Telco Churn.xls,20000.0,13.0,4.71,https://www.kaggle.com/datasets/wereouma/the-telco-churn-xls
+536,Bank Customer Information,10000.0,20.0,3.53,https://www.kaggle.com/datasets/subhashreek/bank-customer-information
+537,customer_churn,1000.0,4.0,2.35,https://www.kaggle.com/datasets/shayam123/customer-churn
+538,Quantium_Customer_Behavior_Analysis,72600.0,3.0,7.06,https://www.kaggle.com/datasets/muhammadmabdullah/quantium-customer-behavior-analysis
+539,False,,,False,https://www.kaggle.com/datasets/tssabhiramkotipalli/bank-customer-churn-model-prediction
+540,False,,,False,https://www.kaggle.com/datasets/kishorbpansare/bank-customer-churn-out-prediction
+541,Simulated Churn Data,1000.0,4.0,5.88,https://www.kaggle.com/datasets/adnanalaref/simulated-churn-data
+542,Data_Customer_Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/fathyfathysahlool/data-customer-churn
+543,PhoneNow Churn Dataset,7043.0,23.0,5.88,https://www.kaggle.com/datasets/ashwinjoseph05/phonenow-churn-dataset
+544,Churn DataSet,7043.0,21.0,4.12,https://www.kaggle.com/datasets/anshulgoel24/churn-dataset
+545,False,,,False,https://www.kaggle.com/datasets/vikassatheesh/bank-customer-churn-model
+546,False,,,False,https://www.kaggle.com/datasets/shiyamaladevirs/telecom-customer-churn-prediction
+547,telecom churn- new cell2cell dataset,71000.0,72.0,5.29,https://www.kaggle.com/datasets/jpacse/telecom-churn-new-cell2cell-dataset
+548,telecommunication industry sample data,7043.0,21.0,2.94,https://www.kaggle.com/datasets/arrayweb/telecommunication-industry-sample-data
+549,customer_churn_rate_EDA,6975.0,22.0,2.35,https://www.kaggle.com/datasets/swim159357/customer-churn-rate-eda
+550,tele churn,600.0,15.0,2.94,https://www.kaggle.com/datasets/wisdomgl/churn
+551,False,,,False,https://www.kaggle.com/datasets/umair436/customer-churn-analysis-and-retention-strategies
+552,Telecom Churn Dataset (IBM Watson Analytics),7043.0,21.0,1.76,https://www.kaggle.com/datasets/zagarsuren/telecom-churn-dataset-ibm-watson-analytics
+553,Customer Churn Analysis of Barclays PLC,10000.0,12.0,1.18,https://www.kaggle.com/datasets/nikhilkumar19980628/customer-churn-analysis-of-barclays-plc
+554,Customer Churn Dataset (Modified to Nigerian),10000.0,14.0,1.18,https://www.kaggle.com/datasets/adeagborapheal/customer-churn-dataset-modified-to-nigerian
+555,Churn prediction for telephone customers,501.0,16.0,1.18,https://www.kaggle.com/datasets/ayatsanhouri/churn-prediction-for-telephone-customers
+556,customer_churn,505000.0,12.0,5.29,https://www.kaggle.com/datasets/saranimje/customer-churn
+557,Lioyds Bank,345.0,1.0,2.94,https://www.kaggle.com/datasets/nitin2335/lioyds-bank
+558,E-commercial customer segmentation and analysis,2240.0,24.0,2.35,https://www.kaggle.com/datasets/linhdinh120804/e-commercial-customer-segmentation-and-analysis
+559,telco cutomer churn,7043.0,33.0,5.29,https://www.kaggle.com/datasets/tiyasanin/telco-cutomer-churn
+560,Maven Churn Dataset,7043.0,38.0,1.76,https://www.kaggle.com/datasets/johnp47/maven-churn-dataset
+561,RoyalBankofScotland_Customer_Churn_YBI_Foundation,10001.0,1.0,2.94,https://www.kaggle.com/datasets/snjena/bank-customer-churn-project-ybi-foundation
+562,False,,,False,https://www.kaggle.com/datasets/roshangowdagm/g-m-roshan-gowda-bank-customer-churn-model
+563,False,,,False,https://www.kaggle.com/datasets/selmanyaln/learning-csvs
+564,False,,,False,https://www.kaggle.com/datasets/osama12bin/logistic-regression
+565,IBM Telco Churn Data,7043.0,9.0,5.29,https://www.kaggle.com/datasets/nikhilrajubiyyap/ibm-telco-churn-data
+566,Telco customer churn dataset CSV,7043.0,33.0,0,https://www.kaggle.com/datasets/pavanikatta55/telco-customer-churn-dataset-csv
+567,Vodafone,360.0,20.0,8.82,https://www.kaggle.com/datasets/finance123456/vodafone
+568,Churn_Modelling,10000.0,14.0,7.06,https://www.kaggle.com/datasets/arjitdsce/churn-modelling
+569,Clustering-Bank Dataset,3070.0,2.0,5.88,https://www.kaggle.com/datasets/gopi1035/clusteringbank-dataset
+570,False,,,False,https://www.kaggle.com/datasets/kushagragulati/bank-churn-project
+571,E-Commerce Customer Multiclass Classification Data,1000.0,9.0,6.47,https://www.kaggle.com/datasets/suryanshchourasiya/ecommerce-customer-dataset
+572,False,,,False,https://www.kaggle.com/datasets/pavitrkumar/bcg-data-science-simulation
+573,Bank_Customer_Churn,10000.0,13.0,5.29,https://www.kaggle.com/datasets/ramyhafez/bank-customer-churn
+574,internet_customer,5517.0,11.0,7.06,https://www.kaggle.com/datasets/miftahuddinm/internet-customer
+575,Bank Dataset Full Analysis,500.0,13.0,4.71,https://www.kaggle.com/datasets/aaldoukali/bank-dataset-full-analysis
+576,Performance of a subscription business,18100.0,9.0,4.71,https://www.kaggle.com/datasets/sarathperingayi/performance-of-a-subscription-business
+577,Customer Data for Telecommunication Analysis,1000.0,12.0,5.29,https://www.kaggle.com/datasets/bhavyajha04/telecust
+578,Knet Flicks - Telecom Data,6588.0,33.0,4.12,https://www.kaggle.com/datasets/sakhikhanchandani105/knet-flicks-telecom-data
+579,Network,4000.0,7.0,5.29,https://www.kaggle.com/datasets/anshulpachauri/network
+580,False,,,False,https://www.kaggle.com/datasets/miltospontikis/b2b-ict-customer-dataset-synthetic
+581,Credit Card CSV,10000.0,30.0,5.29,https://www.kaggle.com/datasets/marcelloroy/credit-card-csv
+582,DSN Telecom Churn Prediction,600.0,15.0,4.12,https://www.kaggle.com/datasets/udemeudofia/dsn-telecom-churn-prediction
+583,Data Info Purchases Customer,3.0,2.0,5.88,https://www.kaggle.com/datasets/sebastianq11/data-info-purchases-customer
+584,False,,,False,https://www.kaggle.com/datasets/almasahmad01/customer-churm-prediction-telecom-data
+585,Customer_Churn_Banking_Dataset,10000.0,14.0,4.12,https://www.kaggle.com/datasets/jaynadkarni/customer-churn-banking-dataset
+586,Customer Demographics and Account Activity,1000.0,12.0,4.12,https://www.kaggle.com/datasets/taruneshburman/customer-demographics-and-account-activity
+587,BAnk_CHurn,10000.0,14.0,4.71,https://www.kaggle.com/datasets/chanducn07/bank-churn
+588,Bank Churning,10100.0,21.0,5.29,https://www.kaggle.com/datasets/gabrielgrantoboe/bank-churning
+589,False,,,False,https://www.kaggle.com/datasets/ssahani/telecom-churn-datasets
+590,False,,,False,https://www.kaggle.com/datasets/ayushjannyag/ayush-jannya
+591,Sporting goods store,18484.0,21.0,2.35,https://www.kaggle.com/datasets/cnezhmar/sporting-goods-store
+592,Newspaper churn,93.0,26.0,5.29,https://www.kaggle.com/datasets/andieminogue/newspaper-churn
+593,Loan and Credit Card Metrics,1000.0,11.0,2.94,https://www.kaggle.com/datasets/taruneshburman/loan-and-credit-card-metrics
+594,PowerCo's Customer DataSet,14600.0,26.0,5.29,https://www.kaggle.com/datasets/gatabhjsbaj/powercos-customer-company-dataset
+595,Telecom Dataset - Measure Churn,6687.0,29.0,9.41,https://www.kaggle.com/datasets/maggieakarn/telecom-dataset-measure-churn
+596,False,,,False,https://www.kaggle.com/datasets/ramiabdullah/customer-churn-data-analysis-image
+597,Travel Booking Analysis of Dataset,279000.0,11.0,4.12,https://www.kaggle.com/datasets/firdapdevi/travel-booking-analysis-of-dataset
+598,Customer_Churn Data set,7043.0,21.0,4.12,https://www.kaggle.com/datasets/jyotibansal9aug/customer-churn-data-set
+599,telco_customer_churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/handesav/telco-customer-churn
+600,False,,,False,https://www.kaggle.com/datasets/iansurii/china-gdp-dataset
+601,Cereals Datasets,77.0,23.0,2.35,https://www.kaggle.com/datasets/homayoonkhadivi/customer-churn-prediction
+602,customer_churn,7043.0,33.0,1.18,https://www.kaggle.com/datasets/essiahouaoui/customer-churn
+603,Customer Service Interactions,1000.0,11.0,2.94,https://www.kaggle.com/datasets/taruneshburman/customer-service-interactions
+604,predicting churn using balanced data set,600.0,15.0,3.53,https://www.kaggle.com/datasets/davidjegede/predicting-churn-using-balanced-data-set
+605,Telco_Customer_churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/ebubekirtilbac/telco-customer-churn
+606,False,,,False,https://www.kaggle.com/datasets/michaelghaly/churnprediction
+607,telco_customer_churn_dataset,3333.0,21.0,4.12,https://www.kaggle.com/datasets/sk21789/telco-customer-churn-dataset
+608,PowerCO.(a major gas and electricity utility),14600.0,26.0,7.65,https://www.kaggle.com/datasets/takusingh/powerco-a-major-gas-and-electricity-utility
+609,False,,,False,https://www.kaggle.com/datasets/datacertlaboratoria/sql-proyecto-2-prdida-de-clientes-en-telco
+610,Telco_Customer_Churn_Data,7043.0,33.0,2.35,https://www.kaggle.com/datasets/aqleemkhan/telco-customer-churn-data
+611,Telecom Churn Dataset,7043.0,21.0,1.76,https://www.kaggle.com/datasets/dpr1988/telecom-churn-dataset
+612,False,,,False,https://www.kaggle.com/datasets/soumenduray99/ajio-data-analysis-using-postgresql-arima-and-rfm
+613,customer_churn_dataset,441000.0,12.0,2.94,https://www.kaggle.com/datasets/ahmedemadmorad/customer-churn-dataset
+614,Churn data,10000.0,12.0,4.12,https://www.kaggle.com/datasets/mathisssss/churn-data
+615,Telco_Customer_Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/gokhankarabag7/telco-customer-churn
+616,Telecom Churn Prediction,1543.0,38.0,2.94,https://www.kaggle.com/datasets/levietdat/telecom-churn-prediction
+617,Telco_Customer_Churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/serapgr/telco-customer-churn
+618,telecom_customer_churn,7043.0,38.0,2.94,https://www.kaggle.com/datasets/israamohamedgaber/telecom-customer-churn
+619,Churn_Rates_Telecom,4617.0,21.0,1.18,https://www.kaggle.com/datasets/parakhsrivastava/customer-churn-rate
+620,Customer_Churn,7032.0,22.0,1.18,https://www.kaggle.com/datasets/bharaniakella/customer-churn
+621,Telco Churn Dataset,7043.0,21.0,2.35,https://www.kaggle.com/datasets/ahmetsendil/telco-churn-dataset
+622,customer_churn,10000.0,12.0,3.53,https://www.kaggle.com/datasets/yvonneg/customer-churn
+623,Telco_Customer_Churn,7043.0,33.0,1.18,https://www.kaggle.com/datasets/aqleemkhan/telco-customer-churn
+624,Bank_Customer_Churn_Prediction_Model_Analysis,10000.0,13.0,1.76,https://www.kaggle.com/datasets/abrazlaskar/bank-customer-churn-prediction-model-analysis
+625,Electric Mobility Dataset,2499.0,18.0,5.88,https://www.kaggle.com/datasets/rakeshmeka/electric-mobility-dataset
+626,telco churn,7043.0,21.0,1.76,https://www.kaggle.com/datasets/bsrsrc/telco-churn
+627,customer_churn_Dataset,7043.0,21.0,2.35,https://www.kaggle.com/datasets/ahmedrizkgawish/customer-churn-dataset
+628,telco-churn-data,7043.0,21.0,1.76,https://www.kaggle.com/datasets/hakanfe/telcochurndata
+629,Churn Dataset,7044.0,21.0,3.53,https://www.kaggle.com/datasets/harshskartik/churn-dataset
+630,BCG company client and price data,14600.0,26.0,4.12,https://www.kaggle.com/datasets/abdallahgomaa/bcg-company-client-and-price-data
+631,Telco Churn Prediction,7043.0,21.0,2.35,https://www.kaggle.com/datasets/damlasogut/telco-churn-prediction
+632,Customer_churn_prediction,7043.0,21.0,1.76,https://www.kaggle.com/datasets/isapakistan/customer-churn-prediction
+633,Telecome Dataset for Churn Prediction,791000.0,70.0,6.47,https://www.kaggle.com/datasets/ma12492002/telecome-dataset-for-churn-prediction
+634,Churn Data,7043.0,21.0,2.35,https://www.kaggle.com/datasets/mfrimpong/churn-data
+635,Telco churn prediction with satisfaction score,7043.0,23.0,2.35,https://www.kaggle.com/datasets/zohaib123/telco-churn-prediction-with-satisfaction-score
+636,Customer_Churn_Data,45200.0,22.0,1.18,https://www.kaggle.com/datasets/jxtz518/customer-churn-data
+637,churn_prediction_cutomer_dataset,196000.0,16.0,4.71,https://www.kaggle.com/datasets/harzrawat/churn-prediction-cutomer-dataset
+638,Customer_Churn,12483.0,21.0,0,https://www.kaggle.com/datasets/hopesb/customer-churn
+639,Churn Data,11260.0,19.0,1.18,https://www.kaggle.com/datasets/humerayasmeen/churn-data
+640,customer_churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/sandipjadhav4kaggle/customer-churn
+641,ML for customer_churn,10000.0,18.0,2.94,https://www.kaggle.com/datasets/trieu1/ml-for-customer-churn
+642,Customer_Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/ngcminhtrnh/customer-churn
+643,Southbell -Churn w/intl calls,6687.0,25.0,2.35,https://www.kaggle.com/datasets/kittyfergusonblevins/southbell-churn-wintl-calls
+644,telecom_churn_dataset,7043.0,21.0,1.18,https://www.kaggle.com/datasets/gyanshashwat1611/telecom-churn-dataset
+645,Customer_Churn,104000.0,20.0,2.35,https://www.kaggle.com/datasets/kryusufkaya/customer-churn
+646,customer_churn_large_dataset,100000.0,9.0,1.18,https://www.kaggle.com/datasets/rohitsalla/customer-churn-large-dataset
+647,Customer_churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/rahulverma012/customer-churn
+648,dataset_customer_churn,750.0,20.0,1.76,https://www.kaggle.com/datasets/mariastellalisa/dataset-customer-churn
+649,Telco Customer,7043.0,21.0,2.94,https://www.kaggle.com/datasets/emreasln/telco-customer
+650,False,,,False,https://www.kaggle.com/datasets/sayantanghosh2023/customer-churn-prediction-sayantan
+651,False,,,False,https://www.kaggle.com/datasets/abhishekrishav/bank-customer-churn-data
+652,Churn dataset with intl call,6687.0,29.0,1.18,https://www.kaggle.com/datasets/davidsonsteele/churn-dataset-with-intl-call
+653,False,,,False,https://www.kaggle.com/datasets/triowibowo28/customer-churn
+654,False,,,False,https://www.kaggle.com/datasets/adyaom/credit-card-churn-prediction
+655,churn_,7043.0,21.0,2.94,https://www.kaggle.com/datasets/priyankadarshanam/churn
+656,customer_churn_data,27000.0,28.0,2.35,https://www.kaggle.com/datasets/canhlu/customer-churn-data
+657,Customer_churn_dash_app,7043.0,21.0,2.94,https://www.kaggle.com/datasets/satya2492/customer-churn-dash-app
+658,Bank Customer,10000.0,12.0,2.35,https://www.kaggle.com/datasets/xwt6035/banksum
+659,False,,,False,https://www.kaggle.com/datasets/samsam25/customer-churn-prediction-dataset
+660,Customer_Churn,7043.0,21.0,1.76,https://www.kaggle.com/datasets/karishma0795/customer-churn
+661,Telecom Churn Dataset_IBM,7043.0,21.0,2.94,https://www.kaggle.com/datasets/nagarathnasali/telecom-churn-dataset-ibm
+662,Customer_Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/arnabmukherjee853/customer-churn
+663,customer_churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/rahulponnam54/customer-churn
+664,customer_churn_dataset,100000.0,9.0,0,https://www.kaggle.com/datasets/ghsouvik2000/customer-churn-dataset
+665,churn_dataset,7043.0,21.0,1.18,https://www.kaggle.com/datasets/mehdirachico9055/churn-dataset
+666,False,,,False,https://www.kaggle.com/datasets/mahimanema/data-visualization
+667,Telecom_Customer_Churn,7043.0,21.0,2.94,https://www.kaggle.com/datasets/amrghabbour/telecom-customer-churn
+668,telecom_churn dataset,7043.0,30.0,1.18,https://www.kaggle.com/datasets/riturajsingh99/telecom-churn-dataset
+669,Customer_Churn,10000.0,18.0,2.35,https://www.kaggle.com/datasets/trieu1/customer-churn
+670,churn_customer,10000.0,14.0,2.94,https://www.kaggle.com/datasets/baruch100/churn-customer
+671,Bank-Churn-Analysis,10001.0,12.0,2.35,https://www.kaggle.com/datasets/akshatsharmawork/bank-churn-analysis
+672,churn_predictions,7043.0,21.0,2.94,https://www.kaggle.com/datasets/atharvaaiml/churn-predictions
+673,Banking Churn Dataset DMML,4999.0,12.0,3.53,https://www.kaggle.com/datasets/patilomkarmahesh/banking-churn-dataset-dmml
+674,telecom_churn_dataset,7043.0,21.0,1.18,https://www.kaggle.com/datasets/codeinstitute/telecom-churn-dataset
+675,Bank_Customer_Churn_Prediction,10000.0,12.0,2.35,https://www.kaggle.com/datasets/vivekvishwas/bank-customer-churn-prediction
+676,DBCapstoneGroup5V2,1000.0,9.0,2.94,https://www.kaggle.com/datasets/amoghaammava/dbcapstonegroup5v2
+677,False,,,False,https://www.kaggle.com/datasets/ojeikereomokhoje/customer-churn-dataset
+678,Telco_customer_churn,7043.0,33.0,2.94,https://www.kaggle.com/datasets/prshch/telco-customer-churn
+679,T2ModeloDeCliente,21.0,1.0,1.18,https://www.kaggle.com/datasets/alexparroyo/t2modelodecliente
+680,Telco_Customer_Churn,7043.0,21.0,1.76,https://www.kaggle.com/datasets/parjanyaadityashukla/telco-customer-churn
+681,churn prediction,7043.0,21.0,3.53,https://www.kaggle.com/datasets/macksonmuhale/churn-prediction
+682,Churn_dataset,7044.0,21.0,2.94,https://www.kaggle.com/datasets/shrikrishnaparab/churn-dataset
+683,False,,,False,https://www.kaggle.com/datasets/raajaganesan/telecom-department-customer-data-churn-json
+684,Churn Prediction,7044.0,21.0,3.53,https://www.kaggle.com/datasets/sabikunmonisha/churn-prediction
+685,False,,,False,https://www.kaggle.com/datasets/apsr2002/bank-data
+686,False,,,False,https://www.kaggle.com/datasets/uyiizevbigie/netflix-data-management2025
+687,Customer_Churn_Prediction,100000.0,9.0,2.35,https://www.kaggle.com/datasets/rajashekarpanuganti/customer-churn-prediction
+688,Customer_Churn_for_Telecom_Company,3749.0,17.0,2.35,https://www.kaggle.com/datasets/yosephendale/customer-churn-for-telecom-company
+689,Churn Analysis,7043.0,21.0,2.35,https://www.kaggle.com/datasets/pragatijain519/churn-analysis
+690,Customer,7043.0,21.0,2.35,https://www.kaggle.com/datasets/ibrahimalwagih/customer
+691,DigitalBusinessCapstoneGroup5,1000.0,9.0,2.35,https://www.kaggle.com/datasets/amoghaammava/digitalbusinesscapstonegroup5
+692,customer_churn,4250.0,21.0,2.35,https://www.kaggle.com/datasets/minar61/customer-churn
+693,False,,,False,https://www.kaggle.com/datasets/kottedasaichandu/customer
+694,CustomerChurnData,11260.0,19.0,0.59,https://www.kaggle.com/datasets/vsridevi/customerchurndata
+695,telco_customer_churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/omerfarukaytunc/telco-customer-churn
+696,Bank_Customer-Churn-Modelling,10000.0,14.0,2.35,https://www.kaggle.com/datasets/subhasishsinha/bank-customer-churn-modelling
+697,Telco-Custoner-Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/mandalaanugrah/telco-custoner-churn
+698,Customer -marketing,50.0,14.0,2.35,https://www.kaggle.com/datasets/kkarthigaaliasamali/customer-marketing
+699,Telco_customer_churn,7043.0,33.0,1.76,https://www.kaggle.com/datasets/khurrambhutto/telco-customer-churn
+700,Telecom churn dataset,7043.0,21.0,2.35,https://www.kaggle.com/datasets/pratap684/telecom-churn-dataset
+701,Telecom_Customer_Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/anasmalick/telecom-customer-churn
+702,Customer marketing dataset,50.0,14.0,2.35,https://www.kaggle.com/datasets/kkarthigaaliasamali/customer-marketing-dataset
+703,Customer_Churn_Prediction,7043.0,21.0,2.35,https://www.kaggle.com/datasets/hossamfarhoud/customer-churn-prediction
+704,Cell2Cell Duke University Telco Dataset,71000.0,58.0,2.35,https://www.kaggle.com/datasets/geoamins/cell2cell-duke-university-telco-dataset
+705,Telecom company Employees Churn Data,6687.0,29.0,2.94,https://www.kaggle.com/datasets/deepthibinu/telecom-company-employees-churn-data
+706,Customer_Churn,7043.0,21.0,0.59,https://www.kaggle.com/datasets/gpanigrahi/customer-churn
+707,Customer_Churn_Prediction_ml,7043.0,21.0,2.35,https://www.kaggle.com/datasets/hossamfarhoud/customer-churn-prediction-ml
+708,Telecom Churn,7043.0,38.0,2.35,https://www.kaggle.com/datasets/prashudas/telecom-churn
+709,IBM churn fictional telco company 7043,7043.0,21.0,0,https://www.kaggle.com/datasets/geoamins/ibm-churn-fictional-telco-company-7043
+710,Dqlab Telco Final,6950.0,13.0,1.76,https://www.kaggle.com/datasets/yuniartamanurung/dqlab-telco-customer-churn
+711,Telco Churn Datasets,7043.0,21.0,2.35,https://www.kaggle.com/datasets/buseyldrm/telco-churn-datasets
+712,Avia company churn,4000.0,2.0,2.35,https://www.kaggle.com/datasets/ikromjonovhojiakbar/avia-company-churn
+713,False,,,False,https://www.kaggle.com/datasets/ashkanranjbar/basalam-marketing-analytics
+714,False,,,False,https://www.kaggle.com/datasets/asmitbandyopadhyay/bank-customer-churn-prediction-model
+715,CUSTOMER,3333.0,11.0,1.18,https://www.kaggle.com/datasets/ankitjpatel/customer
+716,False,,,False,https://www.kaggle.com/datasets/rruchi/churn-prediction
+717,Guardian_Customer_Churn,5630.0,20.0,2.35,https://www.kaggle.com/datasets/hat111111/guardian-customer-churn
+718,customer,3333.0,11.0,1.18,https://www.kaggle.com/datasets/techinfoguruyash/customer
+719,Customer_Churn_Large_Dataset,100000.0,9.0,1.18,https://www.kaggle.com/datasets/saisuraj9999/customer-churn-large-dataset
+720,Customer_Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/mitultank/customer-churn
+721,customer_churn,32800.0,13.0,2.35,https://www.kaggle.com/datasets/rohithkoripelli/customer-churn
+722,customer_churn,113000.0,12.0,2.35,https://www.kaggle.com/datasets/samridhi350/customer-churn
+723,customer_churn_data,5880.0,21.0,2.35,https://www.kaggle.com/datasets/ameergul1234/customer-churn-data
+724,customer_churn,10000.0,14.0,2.35,https://www.kaggle.com/datasets/vanshkhandelwal5627/customer-churn
+725,Telcom_Customer_Churn,7043.0,21.0,2.35,https://www.kaggle.com/datasets/ahmedmagdiii/telcom-customer-churn
+726,Telco Churn Dataset,7043.0,16.0,2.35,https://www.kaggle.com/datasets/adrianwinaya/telco-churn-dataset
+727,qwetrytyg,10000.0,12.0,2.35,https://www.kaggle.com/datasets/kottedasaichandu/qwetrytyg
+728,Customer1,10000.0,12.0,2.35,https://www.kaggle.com/datasets/kottedasaichandu/customer1
+729,Telco Churn Dataset 2,7043.0,16.0,2.35,https://www.kaggle.com/datasets/adrianwinaya/telco-churn-dataset-2
+730,False,,,False,https://www.kaggle.com/datasets/mithunkuamr/customer-churn
+731,Churn_Telco,7043.0,21.0,2.35,https://www.kaggle.com/datasets/akincoskun/churn-telco
+732,customer_churn_data_set,32800.0,13.0,2.35,https://www.kaggle.com/datasets/venupilli/customer-churn-data-set
+733,telco_customer_churn_19_09_2019,7043.0,21.0,1.18,https://www.kaggle.com/datasets/marcusbao1/telco-customer-churn-19-09-2019
+734,churn_p,7043.0,21.0,2.35,https://www.kaggle.com/datasets/darshanjadhav248/churn-p
+735,Customer_Churn_Prediction_Task,10000.0,2.0,2.35,https://www.kaggle.com/datasets/itsprateeksagar/customer-churn-prediction-task
+736,customer_churn_dataset,7043.0,21.0,2.35,https://www.kaggle.com/datasets/mohammedelhetemy/customer-churn-dataset
+737,Telecom_department_customer_data_churn_csv,75000.0,32.0,2.35,https://www.kaggle.com/datasets/raajaganesan/telecom-department-customer-data-churn-csv
+738,Telecom Data Churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/tahirriaz/telecom-data-churn
+739,customer_churn_dataset-training-master,64400.00000000001,12.0,3.53,https://www.kaggle.com/datasets/meghaganguly/customer-churn-dataset-training-master
+740,customer_churn_dataset-training-master1,64400.00000000001,12.0,3.53,https://www.kaggle.com/datasets/meghaganguly/customer-churn-dataset-training-master1
+741,customer_churn_dataset-training-master,441000.0,12.0,3.53,https://www.kaggle.com/datasets/mrzero01/customer-churn-dataset-training-master
+742,Telco_Customer_Churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/serdartohma/telco-customer-churn
+743,Churn_Prediction - Logistic_Regression,7043.0,21.0,2.35,https://www.kaggle.com/datasets/naveenklakshman/churn-prediction-logistic-regression
+744,Telco_customer_churn_7k,6999.0,33.0,2.35,https://www.kaggle.com/datasets/soumyadse/telco-customer-churn-7k
+745,Teleco_Customer_Churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/parjanyaadityashukla/teleco-customer-churn
+746,Telco_customer_churn.csv,7043.0,33.0,2.35,https://www.kaggle.com/datasets/manassehjoseph/telco-customer-churn-csv
+747,customer_churn_dataset.csv,441000.0,12.0,2.35,https://www.kaggle.com/datasets/yousefhossam2222/customer-churn-dataset-csv
+748,False,,,False,https://www.kaggle.com/datasets/raajaganesan/telecom-department-customer-data-churn
+749,customer_churn_dataset,441000.0,12.0,2.35,https://www.kaggle.com/datasets/pratap684/customer-churn-dataset
+750,Churndata,999.0,23.0,2.35,https://www.kaggle.com/datasets/ritikmadhasia/churndata
+751,customer_churn,7043.0,38.0,1.18,https://www.kaggle.com/datasets/shiyamey/customer-churn
+752,Bank_Customer_Churn,10000.0,13.0,4.12,https://www.kaggle.com/datasets/ahmednashatmahmoud/bank-customer-churn
+753,ChurnDataRM,1000.0,7.0,0,https://www.kaggle.com/datasets/fabioheiji/churndatarm
+754,False,,,False,https://www.kaggle.com/datasets/ritobrotomohanto/customer-churn
+755,final.odev,10000.0,18.0,1.18,https://www.kaggle.com/datasets/eylulnidafirinci/finalodev
+756,customerchurn,4250.0,20.0,1.18,https://www.kaggle.com/datasets/vishalchy/customer-churn-train
+757,Telco_Churn_Customer,20000.0,26.0,1.18,https://www.kaggle.com/datasets/harpmaujia/telco-churn-customer
+758,Customer_Churn,7043.0,21.0,1.18,https://www.kaggle.com/datasets/praveenrwl/customer-churn
+759,False,,,False,https://www.kaggle.com/datasets/obinna11/bank-customer-churn
+760,Customer_churn_prediction_xgb,7043.0,21.0,1.18,https://www.kaggle.com/datasets/isapakistan/customer-churn-prediction-xgb
+761,Churn_Telco,7043.0,21.0,1.18,https://www.kaggle.com/datasets/abdullah525/churn-telco
+762,Customer_churn,14600.0,44.0,1.18,https://www.kaggle.com/datasets/pavithransn/customer-churn
+763,telco_churn_csv,7043.0,21.0,1.18,https://www.kaggle.com/datasets/mydang1306/telco-churn-csv
+764,Telcom_Customer_Churn,7043.0,30.0,0,https://www.kaggle.com/datasets/hinalpandya1592/telcom-customer-churn
+765,hcltech_dataset,999.0,22.0,0,https://www.kaggle.com/datasets/ankitprem/hcltech-dataset
+766,uv6696,6347.0,13.0,0,https://www.kaggle.com/datasets/dnyaneshpainjane/uv6696
+767,Churn_Modelling,10000.0,14.0,5.29,https://www.kaggle.com/datasets/jayapriyadatascience/churn-modelling
