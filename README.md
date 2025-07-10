@@ -81,6 +81,303 @@
 
 
 # 5. 수행결과(분석 및 예측 결과)
+<h3 style="color:#2C3E50; text-align:center; font-size: 1.2em;">📊 PowerCo 데이터셋 결측치 분석</h3>
+<div style="overflow-x:auto;">
+<table style="width:100%; border-collapse: collapse; margin: 15px 0; font-family: 'NanumGothic', sans-serif; font-size: 0.85em;">
+    <thead>
+        <tr style="background-color:#E0F2F7; color:#2C3E50;">
+            <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">결측<br>유무</th>
+            <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">칼럼명</th>
+            <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">의미</th>
+            <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">타입</th>
+            <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">결측치<br>비율</th>
+            <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">카디널리티</th>
+            <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">해결 방안</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">activity_new</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">회사 활동 카테고리</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#FFEBEE;">59.30%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">4</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">새 카테고리</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">campaign_disc_ele</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">고객이 마지막으로 가입한 전기 캠페인 코드</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">100.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">channel_sales</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">영업 채널 코드</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#FFEBEE;">26.21%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">7</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">새 카테고리</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">cons_12m</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">최근 12개월간 전기 사용량</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">cons_gas_12m</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">최근 12개월간 가스 사용량</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">cons_last_month</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">지난달 전기 사용량</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">date_activ</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">계약 활성화 날짜</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">date_end</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">계약 종료 등록일</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.01%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">date_first_activ</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">고객의 첫 계약 시작일</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">78.21%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">date_modif_prod</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">상품 마지막 수정일</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.98%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">date_renewal</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">다음 계약 갱신일</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.25%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">forecast_base_bill_ele</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">다음 달 예상 전기 요금 기준</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">78.21%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">forecast_base_bill_year</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">연간 예상 전기 요금 기준</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">78.21%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">forecast_bill_12m</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">12개월 예상 전기 요금 기준</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">78.21%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">forecast_cons</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">다음 달 예상 전기 사용량</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">78.21%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">forecast_cons_12m</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">다음 12개월 예상 전기 사용량</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">forecast_cons_year</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">연간 예상 전기 사용량</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">forecast_discount_energy</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">예상되는 반복 할인 금액</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.78%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">forecast_meter_rent_12m</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">다음 12개월 미터기 임대료 예상 금액</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">forecast_price_energy_p1</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">1구간 예상 에너지 단가</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.78%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">forecast_price_energy_p2</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">2구간 예상 에너지 단가</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.78%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">forecast_price_pow_p1</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">1구간 예상 전력 단가</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.78%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">has_gas</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">고객이 가스도 사용하는지 여부</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">2</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">imp_cons</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">현재 결제된 사용량</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">margin_gross_pow_ele</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">전력 가입 총 마진</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.08%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">margin_net_pow_ele</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">전력 가입 순마진</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.08%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">nb_prod_act</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">활성화된 상품 및 서비스 개수</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">11</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">net_margin</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">총 순마진</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.09%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">num_years_antig</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">고객의 가입 경과 연수</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">15</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">origin_up</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">고객이 처음 가입한 전기 캠페인 코드</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.54%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">5</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">pow_max</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">가입된 최대 전력</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.02%</td>
+            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
+            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
+        </tr>
+    </tbody>
+</table>
+</div>
 
 
 
