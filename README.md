@@ -41,17 +41,19 @@
     받아들이고  계약을 유지하는 비율이 상대적으로 높았습니다.
 
 
+
  <img width="659" alt="reuter-1 " src="https://github.com/user-attachments/assets/eda46139-5a46-462e-b157-9920afbfc204" />
-#Figure 1. Europe’s power price divide hits southeastern economies
- Source: Reuters. (2025, April 24). Title of article.
+#Figure 1. Europe’s power price divide hits southeastern economies Source: Reuters. (2025, April 24). Title of article.
+ 
+ 
  
  <img width="659" alt="reuter-2" src="https://github.com/user-attachments/assets/dd27f639-fc10-49c9-af2e-0f12efbb6380" />
+ #Figure 2. Europe's economic woes may worsen as key power prices rise: Maguire Source: Reuters (2025 November 20). Title of article.
  
-#Figure 2. Europe's economic woes may worsen as key power prices rise: Maguire Source: Reuters (2025 November 20). Title of article.
+ 
  
  <img width="659" alt="reuter-3" src="https://github.com/user-attachments/assets/a6f6b099-ef1e-47b5-ab7d-b09ad1539c7e" />
-Figure 3. Europe’s power price divide hits southeastern economies
-Source: Reuters (2025 January 7). Title of article.
+Figure 3. Europe’s power price divide hits southeastern economies Source: Reuters (2025 January 7). Title of article.
 
 
 
