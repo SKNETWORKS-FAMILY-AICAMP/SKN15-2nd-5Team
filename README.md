@@ -378,7 +378,7 @@
     </tbody>
 </table>
 </div>
-
+<img width="3200" height="4977" alt="Image" src="https://github.com/user-attachments/assets/df6b609b-5a16-4515-9281-adcbe6f5e3fe" />
 
 
 # 6. 한 줄 회고
