@@ -9,11 +9,11 @@
 
 
 
-# 2. 프로젝트 기간
+# 2. 프로젝트 기간 ✅
 ###  25년 07월 10일 (목요일) ~ 25년 07월 11일 (금요일) 
 
 
-# 3. 프로젝트 개요
+# 3. 프로젝트 개요 💡
 - 목적: 이 프로젝트의 궁극적 목적은 PowerCo 고객 이탈(Churn) 예측을 통해 회사의 매출 손실을 최소화하고, 
   효율적인 고객 유지(Retention) 전략을 수립하기 위함입니다.
 - 데이터 출처: [Kaggle - PowerCo dataset Prediction]
@@ -82,7 +82,7 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
 ### 머신러닝 모델
 ![](https://img.shields.io/badge/RandomForest-00B050?style=for-the-badge)![](https://img.shields.io/badge/DecisionTree-228B22?style=for-the-badge)![](https://img.shields.io/badge/XGBoost-EC0000?style=for-the-badge&logo=xgboost&logoColor=white)![](https://img.shields.io/badge/LightGBM-3C3C3C?style=for-the-badge&logo=lightgbm&logoColor=white) ![](https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge)
 
-![](https://img.shields.io/badge/SGDClassifier-006699?style=for-the-badge)![](https://img.shields.io/badge/Logistic%20Regression-1E90FF?style=for-the-badge)![](https://img.shields.io/badge/SVM-8A2BE2?style=for-the-badge)![]
+![](https://img.shields.io/badge/SGDClassifier-006699?style=for-the-badge)![](https://img.shields.io/badge/Logistic%20Regression-1E90FF?style=for-the-badge)![](https://img.shields.io/badge/SVM-8A2BE2?style=for-the-badge)
 
 ### 버전 관리 및 협업
 
