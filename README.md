@@ -26,9 +26,9 @@
 
 ## ✅ 프로젝트 배경 및 목적
 
-    <img width="767" alt="reuter-1 " src="https://github.com/user-attachments/assets/eda46139-5a46-462e-b157-9920afbfc204" />
-    <img width="659" alt="reuter-2" src="https://github.com/user-attachments/assets/dd27f639-fc10-49c9-af2e-0f12efbb6380" />
-     <img width="666" alt="reuter-3" src="https://github.com/user-attachments/assets/a6f6b099-ef1e-47b5-ab7d-b09ad1539c7e" />
+ <img width="767" alt="reuter-1 " src="https://github.com/user-attachments/assets/eda46139-5a46-462e-b157-9920afbfc204" />
+ <img width="659" alt="reuter-2" src="https://github.com/user-attachments/assets/dd27f639-fc10-49c9-af2e-0f12efbb6380" />
+ <img width="666" alt="reuter-3" src="https://github.com/user-attachments/assets/a6f6b099-ef1e-47b5-ab7d-b09ad1539c7e" />
 
 
 
