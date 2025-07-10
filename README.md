@@ -27,26 +27,34 @@
 ## ✅ 프로젝트 배경 및 목적
 
  <img width="659" alt="reuter-1 " src="https://github.com/user-attachments/assets/eda46139-5a46-462e-b157-9920afbfc204" />
+#Figure 1. Europe’s power price divide hits southeastern economies
+ Source: Reuters. (2025, April 24). Title of article.
+ 
  <img width="659" alt="reuter-2" src="https://github.com/user-attachments/assets/dd27f639-fc10-49c9-af2e-0f12efbb6380" />
+ 
+#Figure 2. Europe's economic woes may worsen as key power prices rise: Maguire Source: Reuters (2025 November 20). Title of article.
+ 
  <img width="659" alt="reuter-3" src="https://github.com/user-attachments/assets/a6f6b099-ef1e-47b5-ab7d-b09ad1539c7e" />
-
+Figure 3. Europe’s power price divide hits southeastern economies
+Source: Reuters (2025 January 7). Title of article.
 
 
 
 ## 🖐️ 프로젝트 소개
 1. 계절별 요금 급등기(성수기)부담 -> 이탈 증가  
-    여름(7~8월)이나 겨울(12월)처럼 수요가 몰리는 시기에 요금이 20% 이상 오르는 고객은 ‘요금 충격’을 받아 계약 갱신을 망설이기 쉽습니      다. 실제로 이 시기에 요금이 크게 오르는 그룹의 이탈률은 2025%로 가장 높게 나타났습니다.
-    
-    특히 여름 냉방용·겨울 난방용 전기 비중이 높은 고객(계절성 더미 변수 m_7, m_1 값이 큰 군집)의 
-    이탈율이 **20~25%**로 가장 높게 나왔습니다.
+   여름(7~8월)이나 겨울(12월)처럼 수요가 몰리는 시기에 요금이 20% 이상 오르는 고객은 ‘요금 충격’을 받아
+   계약 갱신을 망설이기 쉽습니다. 실제로 이 시기에 요금이 크게 오르는 그룹의 이탈률은 2025%로 가장 높게 나타    났습니다.
     
  2. 변동 단가의 불안정성 → 예측 불가능성에 대한 거부감
-    고정 요금은 비교적 안정적이지만, 요금이 심하게 오르내리는 고객은 “다음 달 청구액이 얼마나 될지 모른다”는 불안감을 느낍니다. 변동 폭이     큰 그룹의 이탈률은 평균보다 약 1.5배 높게 관찰되었으며, 이들은 주로 다른 회사로 이동하거나 요금제를 변경하는 경향을 보였습니다.
+    고정 요금은 비교적 안정적이지만, 요금이 심하게 오르내리는 고객은 “다음 달 청구액이 얼마나 될지 모른다”는
+    불안감을 느낍니다. 변동 폭이  큰 그룹의 이탈률은 평균보다 약 1.5배 높게 관찰되었으며, 이들은 주로 다른
+    회사로 이동하거나 요금제를 변경하는 경향을 보였습니다.
 
  
  3. 이동평균으로 본 중기 방향성 → 지속 상승 시 이탈 가능성↑
-  3개월 평균 요금이 꾸준히 오르는 추세를 보이면, 고객은 “앞으로도 계속 오를 것 같다”고 생각해 미리 이탈을 결정합니다. 반면, 일시적으로
-  요금이 오르고 다시 내려오는 패턴을 경험한 고객은 이를 계절적 현상으로 받아들이고 계약을 유지하는 비율이 상대적으로 높았습니다.
+    3개월 평균 요금이 꾸준히 오르는 추세를 보이면, 고객은 “앞으로도 계속 오를 것 같다”고 생각해 미리 이탈을
+    결정합니다. 반면, 일시적으로 요금이 오르고 다시 내려오는 패턴을 경험한 고객은 이를 계절적 현상으로
+    받아들이고  계약을 유지하는 비율이 상대적으로 높았습니다.
 
 
 
@@ -60,7 +68,7 @@
 # 4. 기술 스택
 ### AI & 데이터 처리
 
-
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 [](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)![](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)![](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)![](https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
 
