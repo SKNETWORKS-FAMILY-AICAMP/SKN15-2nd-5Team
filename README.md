@@ -50,6 +50,9 @@
   3개월 이동평균(fix_ma_3)이 꾸준히 상승 곡선을 그릴 때, 고객은 ‘요금이 계속 오를 것 같다’고 판단해 미리 이탈을 결정합니다.
   반면 계절성 급등 후 하락 패턴(peak-and-drop)이 뚜렷한 고객은 “일시적 성수기”로 받아들이고 유지하는 비율이 상대적으로 높았습니다.
 
+
+
+
 ## ❤️ 기대효과
 
 ## 👤 대상 사용자
@@ -57,6 +60,12 @@
 
 
 # 4. 기술 스택
+### AI & 데이터 처리
+
+
+[](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)![](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)![](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)![](https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+
 
 
 
