@@ -1,11 +1,11 @@
 # SKN15-2nd-5Team
 
 # 1. 팀 소개
- 오원장
- 권도원
- 유의정
- 조솔찬
- 홍민식
+| 오원장 | 권도원 | 유의정 | 조솔찬 | 홍민식 |
+|--|--|--|--|--|
+| @AQUAQUA5 | @dowonk120 | @Rr-EJ | @solchna | @minnnsik |
+|  |
+| Project Leader |  |  |  |  |
 
 
 
