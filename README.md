@@ -94,43 +94,6 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
 
 
 # 5. 데이터 설명 🧐 
-
-# 6. 데이터 분석 및 전처리 📂🧹
-
-
-# 7. EDA(탐색적 데이터 분석)** 📊🔍
-
-
-
-# 8. 머신러닝 모델링 🤖📈
-
-
-
-# 9. 수행결과(분석 및 예측 결과) 🧪
-
-<h3 style="color:#2C3E50; text-align:center; font-size: 1.2em;">  ⚡️ PowerCo hist_data 데이터 셋 설명  </h3>
-<table style="width:100%; border-collapse: collapse; margin: 15px 0; font-family: 'NanumGothic', sans-serif; font-size: 0.85em;">       
-
-
-| 결측 유무 | 칼럼명           | 의미                     | 타입      | 단위         |
-|---------:|-----------------|-------------------------|-----------|--------- |
-|        0 | price_date      | 청구 기준일              | object    | –        |
-|     1359 | price_p1_var    | 1구간 에너지 단가        | float64   | €/kWh   |
-|     1359 | price_p2_var    | 2구간 에너지 단가        | float64   | €/kWh   |
-|     1359 | price_p3_var    | 3구간 에너지 단가        | float64   | €/kWh   |
-|     1359 | price_p1_fix    | 1구간 전력 고정 단가     | float64   | €/kWh   |
-|     1359 | price_p2_fix    | 2구간 전력 고정 단가     | float64   | €/kWh   |
-|     1359 | price_p3_fix    | 3구간 전력 고정 단가     | float64   | €/kWh   |
-|        0 | cons_12m        | 최근 12개월 전기 사용량  | int64     | kWh       |
-|        0 | cons_gas_12m    | 최근 12개월 가스 사용량  | int64     | m³        |
-|        0 | cons_last_month | 직전 월 전기 사용량      | int64     | kWh       |
-
-            
-
-
-
-
-
 <h3 style="color:#2C3E50; text-align:center; font-size: 1.2em;">📊 PowerCo 데이터셋 결측치 분석</h3>
 <div style="overflow-x:auto;">
 <table style="width:100%; border-collapse: collapse; margin: 15px 0; font-family: 'NanumGothic', sans-serif; font-size: 0.85em;">
@@ -429,31 +392,44 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
     </tbody>
 </table>
 </div>
-<img width="3200" height="4977" alt="Image" src="https://github.com/user-attachments/assets/df6b609b-5a16-4515-9281-adcbe6f5e3fe" />
 
-# 5. 타당한 평가지표 설명
+# 6. 데이터 분석 및 전처리 📂🧹
 
-## 🎯 모델 성능 비교: 개선 전·후
 
-아래 표는 **개선 전**에 XGBoost 단일 모델만 사용했을 때와, **개선 후** 다양한 알고리즘·불균형 처리(SMOTE) 적용 이후의 핵심 지표를 한눈에 비교한 내용입니다.  
+# 7. EDA(탐색적 데이터 분석)** 📊🔍
 
----
 
-### 📊 주요 평가지표
 
-| 단계       | 모델                          | Accuracy | Precision | Recall  | F1-Score | ROC-AUC |
-|-----------|------------------------------|---------:|----------:|--------:|---------:|--------:|
-| **개선 전**  | XGBoost                      |   0.9819 |    0.9995 | 0.8134 |   0.8967 |    0.87* |
-| **개선 후**  | KNN (K Neighbors Classifier)  |   0.9996 |    0.9964 | 0.9998 |   0.9981 |    1.0000 |
-|             | Extra Trees Classifier        |   0.9990 |    0.9996 | 0.9899 |   0.9947 |    1.0000 |
-|             | Random Forest Classifier      |   0.9981 |    0.9998 | 0.9812 |   0.9904 |    1.0000 |
-|             | Decision Tree Classifier      |   0.9970 |    0.9842 | 0.9850 |   0.9846 |    0.9917 |
-|             | LightGBM                      |   0.8835 |    0.4434 | 0.6936 |   0.5410 |    0.9086 |
-|             | Gradient Boosting Classifier  |   0.7515 |    0.2163 | 0.5752 |   0.3144 |    0.7452 |
-|             | AdaBoost Classifier           |   0.6684 |    0.1661 | 0.5840 |   0.2585 |    0.6825 |
+# 8. 머신러닝 모델링 🤖📈
 
-> **\*** ROC-AUC (개선 전 XGBoost): 예시 값(0.87) 입력  
-> **Bold** 단계 구분과 **컬러 배경**(Kaggle에서는 지원되는 범위 내)로 강조하세요.
+
+
+# 9. 수행결과(분석 및 예측 결과) 🧪
+
+<h3 style="color:#2C3E50; text-align:center; font-size: 1.2em;">  ⚡️ PowerCo hist_data 데이터 셋 설명  </h3>
+<table style="width:100%; border-collapse: collapse; margin: 15px 0; font-family: 'NanumGothic', sans-serif; font-size: 0.85em;">       
+
+
+| 결측 유무 | 칼럼명           | 의미                     | 타입      | 단위         |
+|---------:|-----------------|-------------------------|-----------|--------- |
+|        0 | price_date      | 청구 기준일              | object    | –        |
+|     1359 | price_p1_var    | 1구간 에너지 단가        | float64   | €/kWh   |
+|     1359 | price_p2_var    | 2구간 에너지 단가        | float64   | €/kWh   |
+|     1359 | price_p3_var    | 3구간 에너지 단가        | float64   | €/kWh   |
+|     1359 | price_p1_fix    | 1구간 전력 고정 단가     | float64   | €/kWh   |
+|     1359 | price_p2_fix    | 2구간 전력 고정 단가     | float64   | €/kWh   |
+|     1359 | price_p3_fix    | 3구간 전력 고정 단가     | float64   | €/kWh   |
+|        0 | cons_12m        | 최근 12개월 전기 사용량  | int64     | kWh       |
+|        0 | cons_gas_12m    | 최근 12개월 가스 사용량  | int64     | m³        |
+|        0 | cons_last_month | 직전 월 전기 사용량      | int64     | kWh       |
+
+            
+
+
+
+
+
+
 
 ---
 
