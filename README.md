@@ -112,15 +112,18 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
 <table style="width:100%; border-collapse: collapse; margin: 15px 0; font-family: 'NanumGothic', sans-serif; font-size: 0.85em;">       
 
 
-| 결측 유무 | 칼럼명       | 의미               | 타입      | 결측치 비율 | 커디널리티 | 해결 방안           |
-|----------:|--------------|--------------------|-----------|------------:|------------|---------------------|
-|         0 | price_date   | 기준일             | object    | 0%          | –          | –                   |
-|      1,359| price_p1_var | 1구간 에너지 단가  | float64   | 0%          | –          | –                   |
-|      1,359| price_p2_var | 2구간 에너지 단가  | float64   | 70%         | –          | 결측 대체 or 제거   |
-|      1,359| price_p3_var | 3구간 에너지 단가  | float64   | 70%         | –          | 결측 대체 or 제거   |
-|      1,359| price_p1_fix | 1구간 전력 단가    | float64   | 70%         | –          | 결측 대체 or 제거   |
-|      1,359| price_p2_fix | 2구간 전력 단가    | float64   | 70%         | –          | 결측 대체 or 제거   |
-|      1,359| price_p3_fix | 3구간 전력 단가    | float64   | 70%         | –          | 결측 대체 or 제거   |
+| 칼럼명           | 의미                     | 타입      | 단위      |
+|-----------------|-------------------------|-----------|-----------|
+| price_date      | 청구 기준일              | object    | –         |
+| price_p1_var    | 1구간 에너지 단가        | float64   | KRW/kWh   |
+| price_p2_var    | 2구간 에너지 단가        | float64   | KRW/kWh   |
+| price_p3_var    | 3구간 에너지 단가        | float64   | KRW/kWh   |
+| price_p1_fix    | 1구간 전력 고정 단가     | float64   | KRW/kWh   |
+| price_p2_fix    | 2구간 전력 고정 단가     | float64   | KRW/kWh   |
+| price_p3_fix    | 3구간 전력 고정 단가     | float64   | KRW/kWh   |
+| cons_12m        | 최근 12개월 전기 사용량  | int64     | kWh       |
+| cons_gas_12m    | 최근 12개월 가스 사용량  | int64     | m³        |
+| cons_last_month | 직전 월 전기 사용량      | int64     | kWh       |
 
             
 
