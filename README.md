@@ -293,10 +293,43 @@ PowerCo 프로젝트의 원본 데이터는 크게 **Train_data**, **Hist_data**
 </table> 
 
 
-# 6. 데이터 분석 및 전처리 📂🧹
+# 9.EDA, 피처 엔지니어링 📂🧹
 
 
-# 7. EDA(탐색적 데이터 분석)** 📊🔍
+# 10.오토ml을 통한 여러 모델의 성능 비교 
+<table class="model-metrics">
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Accuracy</th>
+      <th>AUC</th>
+      <th>Recall</th>
+      <th>Precision</th>
+      <th>F1</th>
+      <th>Kappa</th>
+      <th>MCC</th>
+      <th>TT (Sec)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Random Forest</td><td>0.9999</td><td>1.0000</td><td>0.9993</td><td>0.9999</td><td>0.9996</td><td>0.9996</td><td>0.9996</td><td>6.533</td></tr>
+    <tr><td>Extra Trees</td><td>0.9998</td><td>1.0000</td><td>0.9981</td><td>0.9999</td><td>0.9990</td><td>0.9989</td><td>0.9989</td><td>7.581</td></tr>
+    <tr><td>KNN</td><td>0.9996</td><td>1.0000</td><td>1.0000</td><td>0.9961</td><td>0.9980</td><td>0.9978</td><td>0.9978</td><td>3.386</td></tr>
+    <tr><td>Decision Tree</td><td>0.9985</td><td>0.9961</td><td>0.9931</td><td>0.9916</td><td>0.9924</td><td>0.9915</td><td>0.9915</td><td>1.033</td></tr>
+    <tr><td>CatBoost</td><td>0.9941</td><td>0.9992</td><td>0.9822</td><td>0.9594</td><td>0.9707</td><td>0.9674</td><td>0.9675</td><td>44.064</td></tr>
+    <tr><td>XGBoost</td><td>0.9649</td><td>0.9887</td><td>0.9132</td><td>0.7736</td><td>0.8375</td><td>0.8180</td><td>0.8216</td><td>1.647</td></tr>
+    <tr><td>Dummy Classifier</td><td>0.9010</td><td>0.5000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.0000</td><td>0.656</td></tr>
+    <tr><td>LightGBM</td><td>0.8880</td><td>0.9285</td><td>0.7693</td><td>0.4608</td><td>0.5763</td><td>0.5164</td><td>0.5390</td><td>117.068</td></tr>
+    <tr><td>Gradient Boosting</td><td>0.7546</td><td>0.7797</td><td>0.6388</td><td>0.2318</td><td>0.3401</td><td>0.2280</td><td>0.2723</td><td>10.997</td></tr>
+    <tr><td>AdaBoost</td><td>0.6875</td><td>0.7233</td><td>0.6255</td><td>0.1836</td><td>0.2839</td><td>0.1544</td><td>0.2021</td><td>3.075</td></tr>
+    <tr><td>LDA</td><td>0.6108</td><td>0.6777</td><td>0.6426</td><td>0.1524</td><td>0.2464</td><td>0.1028</td><td>0.1514</td><td>1.468</td></tr>
+    <tr><td>Ridge Classifier</td><td>0.6106</td><td>0.6777</td><td>0.6429</td><td>0.1524</td><td>0.2464</td><td>0.1028</td><td>0.1514</td><td>0.411</td></tr>
+    <tr><td>SVM (Linear)</td><td>0.5563</td><td>0.5565</td><td>0.4962</td><td>0.1376</td><td>0.1653</td><td>0.0314</td><td>0.0470</td><td>1.827</td></tr>
+    <tr><td>Logistic Regression</td><td>0.5548</td><td>0.6182</td><td>0.6238</td><td>0.1315</td><td>0.2172</td><td>0.0641</td><td>0.1023</td><td>6.559</td></tr>
+    <tr><td>Naive Bayes</td><td>0.2164</td><td>0.6026</td><td>0.9234</td><td>0.1054</td><td>0.1892</td><td>0.0140</td><td>0.0548</td><td>0.384</td></tr>
+    <tr><td>QDA</td><td>0.1449</td><td>0.5936</td><td>0.9863</td><td>0.1026</td><td>0.1859</td><td>0.0080</td><td>0.0557</td><td>1.069</td></tr>
+  </tbody>
+</table>
 
 
 
