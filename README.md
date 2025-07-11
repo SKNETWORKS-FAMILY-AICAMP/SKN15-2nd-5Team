@@ -293,7 +293,59 @@ PowerCo 프로젝트의 원본 데이터는 크게 **Train_data**, **Hist_data**
 </table> 
 
 
-# 9.EDA, 피처 엔지니어링 📂🧹
+# 9. 탐색적 데이터 분석 (EDA) 피처 엔지니어링 📂🧹
+
+---
+
+## 6.1 결측치 & 이상치 점검
+
+- **결측치 매트릭스**  
+  ![](./plots/missing_matrix.png)  
+  - `activity_new`, `campaign_disc_ele` 등 주요 범주형 변수에 50% 이상 결측  
+  - `date_first_activ` 약 78% 결측 → 분석 제외 혹은 별도 처리 필요  
+
+- **수치형 분포 살펴보기**  
+  - `cons_12m` 히스토그램 & 박스플롯  
+    - 우측 꼬리(long tail) 분포, 상위 1% 이상치 확인  
+  - `imp_cons`·`forecast_cons` 박스플롯  
+    - 소수점 분포 및 극단치 시각화  
+
+- **범주형 빈도 분석**  
+  ![](./plots/channel_sales_count.png)  
+  - `channel_sales` 상위 3개(online, branch, phone) 합계 약 70%  
+  - 기타 채널 병합(“other”) 고려  
+
+- **상관관계 히트맵**  
+  ![](./plots/corr_heatmap.png)  
+  - `cons_12m` ↔ `forecast_cons_12m` 상관도 0.85 (예측치 신뢰도 검증)  
+  - 가격 단가 변수와 churn 간 상관도 거의 없음  
+
+
+## 6.2 계절성 & 날짜 기반 피처
+
+| 피처명                   | 설명                                                        |
+|-------------------------|-------------------------------------------------------------|
+| `month_sin`, `month_cos` | 월을 순환형(sinusoidal)으로 인코딩 → 계절별 churn 패턴 포착    |
+| `days_since_renewal`    | 오늘 기준 갱신 후 경과 일수                                  |
+| `days_to_end`           | 오늘 기준 계약 종료까지 남은 일수                            |
+
+---
+
+## 6.3 변동성 & 추세 피처
+
+| 피처명                     | 설명                                                       |
+|---------------------------|------------------------------------------------------------|
+| `price_var_std`           | 3구간 가변 단가(`price_p1_var`~`price_p3_var`) 표준편차 → 요금 변동성 |
+| `price_fix_std`           | 3구간 고정 단가(`price_p1_fix`~`price_p3_fix`) 표준편차 → 고정 단가 변동성 |
+| `cons_3m_ma`, `cons_6m_ma` | 최근 3·6개월 사용량 이동평균 → 중기 소비 추세 반영         |
+
+---
+
+## 6.4 요금 충격 & 상호작용 피처
+
+- **`bill_pct_change`**  
+  ```text
+  (imp_cons − forecast_base_bill_ele) / forecast_base_bill_ele
 
 
 # 10.오토ml을 통한 여러 모델의 성능 비교 
