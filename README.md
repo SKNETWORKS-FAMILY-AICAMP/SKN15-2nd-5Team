@@ -109,9 +109,7 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
 # 9. 수행결과(분석 및 예측 결과) 🧪
 
 
-<h3 style="color:#2C3E50; text-align:center; font-size: 1.2em;">  ⚡️ PowerCo hist_data 데이터 셋 설명  </h3>
 
-<table style="width:100%; border-collapse: collapse; margin: 15px 0; font-family: 'NanumGothic', sans-serif; font-size: 0.85em;">
  <thead>
         <tr style="background-color:#E0F2F7; color:#2C3E50;">
             <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">결측<br>유무</th>
@@ -121,6 +119,11 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
             <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">결측치<br>비율</th>
             <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">카디널리티</th>
             <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">해결 방안</th>
+
+<h3 style="color:#2C3E50; text-align:center; font-size: 1.2em;">  ⚡️ PowerCo hist_data 데이터 셋 설명  </h3>
+
+<table style="width:100%; border-collapse: collapse; margin: 15px 0; font-family: 'NanumGothic', sans-serif; font-size: 0.85em;">
+
 
 
 
