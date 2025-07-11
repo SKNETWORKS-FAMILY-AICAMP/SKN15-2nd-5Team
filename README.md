@@ -58,21 +58,6 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
  
  <img width="659" alt="reuter-3" src="https://github.com/user-attachments/assets/a6f6b099-ef1e-47b5-ab7d-b09ad1539c7e" />
  Figure 3. Europe’s power price divide hits southeastern economies Source: Reuters (2025 January 7). Title of article.
-
-
-
-## 🖐️ 프로젝트 소개
-
-
-
-
-
-## ❤️ 기대효과
-
-## 👤 대상 사용자
-
-
-
 # 4. 기술 스택
 ### AI & 데이터 처리
 
@@ -405,6 +390,8 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
 |        0 | cons_12m        | 최근 12개월 전기 사용량  | int64     | kWh       |
 |        0 | cons_gas_12m    | 최근 12개월 가스 사용량  | int64     | m³        |
 |        0 | cons_last_month | 직전 월 전기 사용량      | int64     | kWh       |
+
+
 
 
 # 6. 데이터 분석 및 전처리 📂🧹
