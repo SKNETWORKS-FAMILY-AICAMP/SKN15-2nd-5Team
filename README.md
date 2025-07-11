@@ -376,6 +376,7 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
 </table>
 </div>
 
+
 | 결측 유무 | 칼럼명           | 의미                     | 타입      | 단위         |
 |---------:|-----------------|-------------------------|-----------|--------- |
 |        0 | price_date      | 청구 기준일              | object    | –        |
@@ -389,6 +390,91 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
 |        0 | cons_gas_12m    | 최근 12개월 가스 사용량  | int64     | m³        |
 |        0 | cons_last_month | 직전 월 전기 사용량      | int64     | kWh       |
 
+
+<img width="1186" height="690" alt="image" src="https://github.com/user-attachments/assets/6c9bfb0b-cd77-484d-93ec-0cce616e2c77" />
+
+
+<img width="558" height="582" alt="image" src="https://github.com/user-attachments/assets/06cc1d26-cae0-46a5-8f10-dbafa8eb6914" />
+
+<img width="1978" height="1950" alt="image" src="https://github.com/user-attachments/assets/3f4f8bf1-480a-4e1d-9f21-9a187d8598f6" />
+
+<img width="1227" height="422" alt="image" src="https://github.com/user-attachments/assets/92bd0668-06f5-4987-a15e-2ebc242eb84b" />
+
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th>No.</th>
+      <th>데이터셋</th>
+      <th>설명</th>
+      <th>EDA 요약</th>
+      <th>모델</th>
+      <th>성능</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><strong>PowerCo</strong></td>
+      <td>전체 고객 중 약 10% 이탈<br>채널·상품·가입기간별 분석</td>
+      <td>- 결측치 다수 컬럼 제거, 나머지는 bfill/최빈값 처리<br>- 이상치 및 음수값 처리<br>- 타입 정제, 클린 데이터 구축</td>
+      <td>XGBClassifier<br>RandomForest</td>
+      <td>
+        Accuracy: <strong>0.981</strong><br>
+        Precision: <strong>0.9989</strong><br>
+        Recall: <strong>0.8080</strong>
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><strong>Bank Churn (1)</strong></td>
+      <td>신용카드 고객 이탈 여부 예측</td>
+      <td>- 결측치 처리, 비수치형 인코딩<br>- 분포/이탈률 시각화<br>- 군집 분석, 상관관계 시각화</td>
+      <td>Random Forest<br>AdaBoost<br>SVM</td>
+      <td>(EDA 중심, 모델 성능 미기재)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><strong>Bank Churn (2)</strong></td>
+      <td>H2O 기반 모델 + sklearn 혼합 실험</td>
+      <td>- 결측치 처리<br>- 클래스 불균형 SMOTE 적용<br>- 분포 시각화 및 인코딩 수행</td>
+      <td>H2O GBM<br>LightGBM, XGBoost<br>로지스틱 회귀 등</td>
+      <td>(AUC 기준 성능 우수)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><strong>Bank Churn (3)</strong></td>
+      <td>Soft Voting 앙상블 모델</td>
+      <td>- 전처리 파이프라인 구성<br>- 클러스터링 후 피처 추가<br>- PCA 기반 차원 축소</td>
+      <td>CatBoost, XGBoost<br>LightGBM (앙상블)</td>
+      <td>(정량적 성능 미기재)</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><strong>Telco Churn</strong></td>
+      <td>통신사 고객 이탈 여부 예측</td>
+      <td>- 결측치/이상치/중복 제거<br>- 인코딩 및 시각화<br>- 계약 유형, 요금 분석, SMOTE 적용</td>
+      <td>Random Forest<br>SVM, KNN (Best), AdaBoost 등</td>
+      <td>
+        Accuracy: <strong>0.898</strong><br>
+        Precision: 0.650<br>
+        Recall: 0.0426
+      </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><strong>PowerCo (다른 소스)</strong></td>
+      <td>다른 코드 기반, 최신 기법 적용</td>
+      <td>- 파생 변수 생성<br>- PCA 및 로그 변환<br>- 상관관계 분석 및 정제</td>
+      <td>Random Forest<br>Naive Bayes, SVM</td>
+      <td>
+        Accuracy: <strong>0.950</strong><br>
+        Recall: <strong>0.91</strong><br>
+        F2-score: <strong>0.93</strong>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
