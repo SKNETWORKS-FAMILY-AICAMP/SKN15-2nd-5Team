@@ -461,16 +461,18 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
 
 ### 1) 전체 모델 Recall 비교  
 
-![Model Performance Recall Emphasized .png](attachment:ec43f825-936c-453d-9320-74e892370a6c.png)
+<img width="1384" height="584" alt="Model Performance Recall Emphasized " src="https://github.com/user-attachments/assets/b47833ad-c047-470c-afc4-67af69e852e2" />
+
 ---
 
 ### 2) Top 10 모델 Recall 순위  
-![TOP 10 model Recall compare .png](attachment:4e9d3d73-8807-4720-8af4-168fd32d9421.png)
+<img width="984" height="584" alt="TOP 10 model Recall compare " src="https://github.com/user-attachments/assets/86b4a06f-0101-4c55-b142-ac1fb11c11f6" />
 
 ---
 
 ### 3) XGBoost Feature Importance  
-![XGBoost Feature importance.png](attachment:6772b06d-3223-4e84-b0bc-c5f329a6e0e9.png)
+<img width="989" height="790" alt="XGBoost Feature importance" src="https://github.com/user-attachments/assets/a919684d-42b5-43e2-87fb-ffaa064bca94" />
+
 
 ---
 
