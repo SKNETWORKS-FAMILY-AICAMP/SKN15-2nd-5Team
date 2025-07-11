@@ -154,7 +154,81 @@ PowerCo는 전력 시장 자유화, 가격 민감도 증가 등 환경 변화로
       
 ![](https://www.kaggleusercontent.com/kf/249884298/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..S7ubOFvyJyMZbwlZyRkbYw.rKits_cfq7UmIIemmdoI85UdOMV5Zlxvo2FAMU7hi6RGRmMSse_gGdZbCcEpJo2zxBiFCsHhDRoWgq_VgUNVmWss2Y9CSVIfYwLjK10S51b05N0AhVmRegTxnhag92aJqEm6L65CQoZAMj4hK5Xs8UgARWnXA8UcMKGn-az7oGpnyvAFF8vT_vBBEnRTI5dUTO7xlrFMgvzPqYq8nFhz2CxQSuA00BBOLkU48AnGNvx5BkBVFkahaKF63_wZTh9SouiBfaKJTOAzUtDRiXqRwXU_D5cXt2xJQoj4GmDL2RIJjaXhK9yfVPu-ikNw_EsFy9_kDk1q8sju5QJgSC-x19CJhM85bOwwoOpMwqZlx13np6F7s5AgL92MQx5GU9U4PsujDMcyJeAqEmZP54Y3eL8GZvLYOFUZ1J0VsESMyPsvZkpjKLswcutLaYKc6JaabgbQH5f_RlGl-kPSoyHarF20FieJGWndmW2UDZWAzUhBLPCRMwszykfpeNbuBAeGrsVOPeFTpIu3PfJ-VADsWSNcCnAcVQAc6xhH-ELe4JqB1GsJDFHzbWUTaMh4NNFwoaLJ7njX02IOBldYbSfGhM2fSGugHxPRzegegQuFWJXD7Ag2uSclDmxC8Q7CX7nY.9o16I9Wd-RUalkoscYB-RQ/__results___files/__results___20_0.png)
 
-
+# 8. 같거나 비슷한 데이터셋의 기존 사례와 정확도 소개
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th>No.</th>
+      <th>데이터셋</th>
+      <th>설명</th>
+      <th>EDA 요약</th>
+      <th>모델</th>
+      <th>성능</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><strong>PowerCo</strong></td>
+      <td>전체 고객 중 약 10% 이탈<br>채널·상품·가입기간별 분석</td>
+      <td>- 결측치 다수 컬럼 제거, 나머지는 bfill/최빈값 처리<br>- 이상치 및 음수값 처리<br>- 타입 정제, 클린 데이터 구축</td>
+      <td>XGBClassifier<br>RandomForest</td>
+      <td>
+        Accuracy: <strong>0.981</strong><br>
+        Precision: <strong>0.9989</strong><br>
+        Recall: <strong>0.8080</strong>
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><strong>Bank Churn (1)</strong></td>
+      <td>신용카드 고객 이탈 여부 예측</td>
+      <td>- 결측치 처리, 비수치형 인코딩<br>- 분포/이탈률 시각화<br>- 군집 분석, 상관관계 시각화</td>
+      <td>Random Forest<br>AdaBoost<br>SVM</td>
+      <td>(EDA 중심, 모델 성능 미기재)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><strong>Bank Churn (2)</strong></td>
+      <td>신용카드 고객 이탈 여부 예측</td>
+      <td>- 결측치 처리<br>- 클래스 불균형 SMOTE 적용<br>- 분포 시각화 및 인코딩 수행</td>
+      <td>H2O GBM<br>LightGBM, XGBoost<br>로지스틱 회귀 등</td>
+      <td>(AUC 기준 성능 우수)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><strong>Bank Churn (3)</strong></td>
+      <td>신용카드 고객 이탈 여부 예측</td>
+      <td>- 전처리 파이프라인 구성<br>- 클러스터링 후 피처 추가<br>- PCA 기반 차원 축소</td>
+      <td>CatBoost, XGBoost<br>LightGBM (앙상블)</td>
+      <td>(정량적 성능 미기재)</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><strong>Telco Churn</strong></td>
+      <td>통신사 고객 이탈 여부 예측</td>
+      <td>- 결측치/이상치/중복 제거<br>- 인코딩 및 시각화<br>- 계약 유형, 요금 분석, SMOTE 적용</td>
+      <td>Random Forest<br>SVM, KNN (Best), AdaBoost 등</td>
+      <td>
+        Accuracy: <strong>0.898</strong><br>
+        Precision: 0.650<br>
+        Recall: 0.0426
+      </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><strong>PowerCo (다른 소스)</strong></td>
+      <td>다른 코드 기반, 최신 기법 적용</td>
+      <td>- 파생 변수 생성<br>- PCA 및 로그 변환<br>- 상관관계 분석 및 정제</td>
+      <td>Random Forest<br>Naive Bayes, SVM</td>
+      <td>
+        Accuracy: <strong>0.950</strong><br>
+        Recall: <strong>0.91</strong><br>
+        F2-score: <strong>0.93</strong>
+      </td>
+    </tr>
+  </tbody>
+</table> 
 
 
 # 6. 데이터 분석 및 전처리 📂🧹
