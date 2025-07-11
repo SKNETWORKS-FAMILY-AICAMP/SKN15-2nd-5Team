@@ -10,52 +10,60 @@
 | Project Leader |  |  |  |  |
 
 
+
 # 2. 프로젝트 기간 🏆
 ###  25년 07월 10일 (목요일) ~ 25년 07월 11일 (금요일) 
 
 
+
 # 3. 프로젝트 개요 💡
-- 목적: 파워코(Powerco)는 BCG의 클라이언트 중 하나로, 중소기업(SME)과 주거 고객을 대상으로 가스와 전기를 공급하는 회사입니다. 현재 파워코는 특히 유럽 시장의 SME 고객을 중심으로, 고객 이탈(Churn)이 예상되는 감소세 고객을 탐지하는 데 집중하고 있습니다. 이는 에너지 시장의 자유화(Power Liberalization) 이슈와도 관련이 있습니다.
-고객 이탈에 영향을 미치는 주요 가설 중 하나는 고객의 가격 민감도입니다. 즉, 가격에 민감한 고객일수록 이탈 가능성이 높다는 점에 주목하고 있습니다. 이에 따라 파워코는 이탈 가능성이 높은 고객에게 20% 할인을 제공하는 마케팅 전략을 계획하고 있습니다.
+- 목적: 이 프로젝트의 궁극적 목적은 PowerCo 고객 이탈(Churn) 예측을 통해 회사의 매출 손실을 최소화하고, 
+  효율적인 고객 유지(Retention) 전략을 수립하기 위함입니다.
 - 데이터 출처: [Kaggle - PowerCo dataset Prediction]
 (https://www.kaggle.com/datasets/naiborhujosua/energy-industry)
 - 데이터 구성: 총 42개 컬럼, (16,096명 최근 12개월 전력 소비량, 서비스시작일,서비스 종료일, 이탈여부 등)
 
 
+##  프로젝트명
 
 
 ## ✅ 프로젝트 배경 및 목적
-1. 계절별 요금 급등기(성수기)부담 -> 이탈 증가  
-   여름(7~8월)이나 겨울(12월)처럼 수요가 몰리는 시기에 요금이 20% 이상 오르는 고객은 ‘요금 충격’을 받아
-   계약 갱신을 망설이기 쉽습니다. 실제로 이 시기에 요금이 크게 오르는 그룹의 이탈률은 2025%로 가장 높게 나타났습니다.
-    
- 2. 변동 단가의 불안정성 → 예측 불가능성에 대한 거부감
-    고정 요금은 비교적 안정적이지만, 요금이 심하게 오르내리는 고객은 “다음 달 청구액이 얼마나 될지 모른다”는
-    불안감을 느낍니다. 변동 폭이  큰 그룹의 이탈률은 평균보다 약 1.5배 높게 관찰되었으며, 이들은 주로 다른
-    회사로 이동하거나 요금제를 변경하는 경향을 보였습니다.
+
+파워코(PowerCo)는 BCG의 클라이언트로, 중소기업(SME)과 주거 고객에게 가스와 전기를 공급하는 에너지 회사입니다.  
+최근 유럽 시장의 전력 자유화(Power Liberalization)와 가격 경쟁 심화로, 특히 SME 고객층에서 고객 이탈(Churn)률이 증가하고 있습니다.
+
+<img width="659" alt="reuter-1" src="https://github.com/user-attachments/assets/eda46139-5a46-462e-b157-9920afbfc204" />
+
+*Figure 1. Europe’s power price divide hits southeastern economies (Reuters, 2025년 4월 24일)*
+
+### 주요 배경 현황
+
+- **계절별 요금 급등기(성수기) 부담에 따른 이탈 증가**  
+  여름·겨울 수요 집중 시기에 요금이 20% 이상 급등하는 고객은 ‘요금 충격’으로 계약 갱신을 주저하며,  
+  이 시기 급등 그룹의 이탈률은 20~25%로 가장 높게 나타납니다.
+
+- **변동 단가 불안정성에 따른 예측 불가능성 거부감**  
+  요금 변동 폭이 큰 고객은 다음 달 청구액 불확실성에 불안감을 느끼며,  
+  평균 대비 약 1.5배 높은 이탈률을 보입니다. 이들은 주로 타사 이동 또는 요금제 변경을 선택합니다.
+
+- **3개월 이동평균 요금 상승 추세와 이탈 가능성**  
+  지속적인 요금 상승 추세는 고객의 이탈 결정을 촉진합니다.  
+  반면, 일시적 상승 후 요금이 하락하는 고객은 이를 계절적 현상으로 인지해 계약 유지율이 높습니다.
+
+
+이탈의 핵심 원인 중 하나로 **고객의 가격 민감도**가 지목됩니다.  
+요금 급등과 변동성 높은 요금 구조가 고객 불만과 이탈을 유발하는 주요 요인으로 분석되며,  
+파워코는 이탈 위험 고객에게 20% 할인 등 맞춤형 마케팅을 제공해 고객 유지율을 높이고자 합니다.
+
+
+### 프로젝트 목표
+
+- 고객의 계약, 이용 패턴, 요금, 마진, 마케팅 이력 등 다양한 특성과 이탈 간 관계를 데이터 기반으로 분석  
+- 고객 이탈 확률(Churn Probability)을 예측하는 분류 모델 개발  
+- 예측 결과를 활용해 효과적인 마케팅 전략(예: 할인 캠페인 타겟팅) 수립에 필요한 인사이트 도출
+
 
  
- 3. 이동평균으로 본 중기 방향성 → 지속 상승 시 이탈 가능성↑
-    3개월 평균 요금이 꾸준히 오르는 추세를 보이면, 고객은 “앞으로도 계속 오를 것 같다”고 생각해 미리 이탈을
-    결정합니다. 반면, 일시적으로 요금이 오르고 다시 내려오는 패턴을 경험한 고객은 이를 계절적 현상으로
-    받아들이고  계약을 유지하는 비율이 상대적으로 높았습니다.
-
-
-
- <img width="659" alt="reuter-1 " src="https://github.com/user-attachments/assets/eda46139-5a46-462e-b157-9920afbfc204" />
-
-Figure 1. Europe’s power price divide hits southeastern economies Source: Reuters. (2025, April 24). Title of article.
- 
- 
- 
- <img width="659" alt="reuter-2" src="https://github.com/user-attachments/assets/dd27f639-fc10-49c9-af2e-0f12efbb6380" />
-
- Figure 2. Europe's economic woes may worsen as key power prices rise: Maguire Source: Reuters (2025 November 20). Title of article.
- 
- 
- 
- <img width="659" alt="reuter-3" src="https://github.com/user-attachments/assets/a6f6b099-ef1e-47b5-ab7d-b09ad1539c7e" />
- Figure 3. Europe’s power price divide hits southeastern economies Source: Reuters (2025 January 7). Title of article.
 # 4. 기술 스택
 ### AI & 데이터 처리
 
@@ -75,406 +83,77 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
 
 
 
+# 5. 데이터셋 소개
 
-# 5. 데이터 설명 🧐 
-<h3 style="color:#2C3E50; text-align:center; font-size: 1.2em;">   </h3>
-<div style="overflow-x:auto;">
-<table style="width:100%; border-collapse: collapse; margin: 15px 0; font-family: 'NanumGothic', sans-serif; font-size: 0.85em;">
-    <thead>
-        <tr style="background-color:#E0F2F7; color:#2C3E50;">
-            <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">결측<br>유무</th>
-            <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">칼럼명</th>
-            <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">의미</th>
-            <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">타입</th>
-            <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">단위</th>
-            <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">결측치<br>비율</th>
-            <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">카디널리티</th>
-            <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">해결 방안</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">activity_new</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">회사 활동 카테고리</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#FFEBEE;">59.30%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">4</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">새 카테고리</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">campaign_disc_ele</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">고객이 마지막으로 가입한 전기 캠페인 코드</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">100.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">channel_sales</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">영업 채널 코드</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#FFEBEE;">26.21%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">7</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">새 카테고리</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">cons_12m</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">최근 12개월간 전기 사용량</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">cons_gas_12m</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">최근 12개월간 가스 사용량</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">cons_last_month</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">지난달 전기 사용량</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">date_activ</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">계약 활성화 날짜</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">date_end</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">계약 종료 등록일</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.01%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">date_first_activ</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">고객의 첫 계약 시작일</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">78.21%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">date_modif_prod</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">상품 마지막 수정일</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.98%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">date_renewal</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">다음 계약 갱신일</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.25%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">forecast_base_bill_ele</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">다음 달 예상 전기 요금 기준</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">78.21%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">forecast_base_bill_year</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">연간 예상 전기 요금 기준</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">78.21%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">forecast_bill_12m</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">12개월 예상 전기 요금 기준</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">78.21%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd; font-weight:bold;">forecast_cons</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">다음 달 예상 전기 사용량</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; background-color:#F8D7DA;">78.21%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd; color:blue;">드랍</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">forecast_cons_12m</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">다음 12개월 예상 전기 사용량</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">forecast_cons_year</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">연간 예상 전기 사용량</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">forecast_discount_energy</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">예상되는 반복 할인 금액</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.78%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">forecast_meter_rent_12m</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">다음 12개월 미터기 임대료 예상 금액</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">forecast_price_energy_p1</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">1구간 예상 에너지 단가</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.78%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">forecast_price_energy_p2</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">2구간 예상 에너지 단가</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.78%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">forecast_price_pow_p1</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">1구간 예상 전력 단가</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.78%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">has_gas</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">고객이 가스도 사용하는지 여부</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">2</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">imp_cons</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">현재 결제된 사용량</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">margin_gross_pow_ele</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">전력 가입 총 마진</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.08%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">margin_net_pow_ele</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">전력 가입 순마진</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.08%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">nb_prod_act</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">활성화된 상품 및 서비스 개수</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">11</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">net_margin</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">총 순마진</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.09%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">X</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">num_years_antig</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">고객의 가입 경과 연수</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">int64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.00%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">15</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">origin_up</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">고객이 처음 가입한 전기 캠페인 코드</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">object</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.54%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">5</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-        <tr>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center; color:red;">O</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">pow_max</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">가입된 최대 전력</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">float64</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">0.02%</td>
-            <td style="padding: 5px; border: 1px solid #ddd; text-align: center;">-</td>
-            <td style="padding: 5px; border: 1px solid #ddd;">-</td>
-        </tr>
-    </tbody>
-</table>
-</div>
+본 프로젝트에서는 **Kaggle PowerCo 고객 이탈 예측** 데이터셋을 활용하였습니다.  
+이 데이터는 유럽 지역 SME(중소기업)와 주거용 고객을 대상으로 전기·가스를 공급하는 PowerCo사의 실제 거래 및 이탈 이력 데이터를 기반으로 합니다.
+
+PowerCo는 전력 시장 자유화, 가격 민감도 증가 등 환경 변화로 인해 고객 이탈(Churn) 가능성이 높아진 상황에서,  
+이탈 예측 모델링을 통해 "이탈 위험 고객"에게 20% 할인 등 차별적 마케팅 전략을 적용할지 판단하고자 합니다.
+
+데이터셋은 다음 세 개의 주요 파일로 구성되어 있습니다.
+
+- **ml_case_training_data.csv**  
+    - 고객 기본 정보, 계약, 사용량, 예상 요금, 마진, 마케팅 이력 등 다양한 변수(32개 컬럼) 포함  
+    - 예: 고객ID, 업종코드, 채널, 연간/월간 소비량, 계약일·종료일·갱신일, 전기/가스 이용여부, 예상 매출·마진, 제품 수, 순마진 등  
+
+- **ml_case_training_hist_data.csv**  
+    - 고객별 월별 계약 가격 정보(변동단가·고정단가 포함) 제공  
+    - 예: 고객ID, 가격적용월, 기간별 변동/고정 단가 등  
+
+- **ml_case_training_output.csv**  
+    - 타겟 변수인 고객 이탈 여부(3개월 이내 이탈: 1, 유지: 0) 포함  
+
+세 파일 모두 고객 고유 ID(`id`)를 기준으로 연결되며,  
+고객별 이탈 여부 및 월별 가격 정보까지 결합해 분석에 활용합니다.
 
 
-| 결측 유무 | 칼럼명           | 의미                     | 타입      | 단위         |
-|---------:|-----------------|-------------------------|-----------|--------- |
-|        0 | price_date      | 청구 기준일              | object    | –        |
-|     1359 | price_p1_var    | 1구간 에너지 단가        | float64   | €/kWh   |
-|     1359 | price_p2_var    | 2구간 에너지 단가        | float64   | €/kWh   |
-|     1359 | price_p3_var    | 3구간 에너지 단가        | float64   | €/kWh   |
-|     1359 | price_p1_fix    | 1구간 전력 고정 단가     | float64   | €/kWh   |
-|     1359 | price_p2_fix    | 2구간 전력 고정 단가     | float64   | €/kWh   |
-|     1359 | price_p3_fix    | 3구간 전력 고정 단가     | float64   | €/kWh   |
-|        0 | cons_12m        | 최근 12개월 전기 사용량  | int64     | kWh       |
-|        0 | cons_gas_12m    | 최근 12개월 가스 사용량  | int64     | m³        |
-|        0 | cons_last_month | 직전 월 전기 사용량      | int64     | kWh       |
+이 데이터셋을 통해  
+- 고객의 이용 패턴, 가격, 마진, 마케팅 이력 등 다양한 특성과 이탈 간 관계를 분석하고,  
+- 고객 이탈 확률(Churn Probability)을 예측하는 모델을 개발하며,  
+- 예측 결과를 바탕으로 맞춤형 마케팅 전략 수립에 필요한 인사이트 도출을 목표로 합니다.
 
 
-<img width="1186" height="690" alt="image" src="https://github.com/user-attachments/assets/6c9bfb0b-cd77-484d-93ec-0cce616e2c77" />
 
 
-<img width="558" height="582" alt="image" src="https://github.com/user-attachments/assets/06cc1d26-cae0-46a5-8f10-dbafa8eb6914" />
-
-<img width="1978" height="1950" alt="image" src="https://github.com/user-attachments/assets/3f4f8bf1-480a-4e1d-9f21-9a187d8598f6" />
-
-<img width="1227" height="422" alt="image" src="https://github.com/user-attachments/assets/92bd0668-06f5-4987-a15e-2ebc242eb84b" />
 
 
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-  <thead style="background-color: #f2f2f2;">
-    <tr>
-      <th>No.</th>
-      <th>데이터셋</th>
-      <th>설명</th>
-      <th>EDA 요약</th>
-      <th>모델</th>
-      <th>성능</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td><strong>PowerCo</strong></td>
-      <td>전체 고객 중 약 10% 이탈<br>채널·상품·가입기간별 분석</td>
-      <td>- 결측치 다수 컬럼 제거, 나머지는 bfill/최빈값 처리<br>- 이상치 및 음수값 처리<br>- 타입 정제, 클린 데이터 구축</td>
-      <td>XGBClassifier<br>RandomForest</td>
-      <td>
-        Accuracy: <strong>0.981</strong><br>
-        Precision: <strong>0.9989</strong><br>
-        Recall: <strong>0.8080</strong>
-      </td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td><strong>Bank Churn (1)</strong></td>
-      <td>신용카드 고객 이탈 여부 예측</td>
-      <td>- 결측치 처리, 비수치형 인코딩<br>- 분포/이탈률 시각화<br>- 군집 분석, 상관관계 시각화</td>
-      <td>Random Forest<br>AdaBoost<br>SVM</td>
-      <td>(EDA 중심, 모델 성능 미기재)</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td><strong>Bank Churn (2)</strong></td>
-      <td>H2O 기반 모델 + sklearn 혼합 실험</td>
-      <td>- 결측치 처리<br>- 클래스 불균형 SMOTE 적용<br>- 분포 시각화 및 인코딩 수행</td>
-      <td>H2O GBM<br>LightGBM, XGBoost<br>로지스틱 회귀 등</td>
-      <td>(AUC 기준 성능 우수)</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td><strong>Bank Churn (3)</strong></td>
-      <td>Soft Voting 앙상블 모델</td>
-      <td>- 전처리 파이프라인 구성<br>- 클러스터링 후 피처 추가<br>- PCA 기반 차원 축소</td>
-      <td>CatBoost, XGBoost<br>LightGBM (앙상블)</td>
-      <td>(정량적 성능 미기재)</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td><strong>Telco Churn</strong></td>
-      <td>통신사 고객 이탈 여부 예측</td>
-      <td>- 결측치/이상치/중복 제거<br>- 인코딩 및 시각화<br>- 계약 유형, 요금 분석, SMOTE 적용</td>
-      <td>Random Forest<br>SVM, KNN (Best), AdaBoost 등</td>
-      <td>
-        Accuracy: <strong>0.898</strong><br>
-        Precision: 0.650<br>
-        Recall: 0.0426
-      </td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td><strong>PowerCo (다른 소스)</strong></td>
-      <td>다른 코드 기반, 최신 기법 적용</td>
-      <td>- 파생 변수 생성<br>- PCA 및 로그 변환<br>- 상관관계 분석 및 정제</td>
-      <td>Random Forest<br>Naive Bayes, SVM</td>
-      <td>
-        Accuracy: <strong>0.950</strong><br>
-        Recall: <strong>0.91</strong><br>
-        F2-score: <strong>0.93</strong>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+# 7. 분포 소개
+
+- **범주형 데이터**
+
+
+| 변수명                                                                                               | 의미                    | 고유값 수 (Unique) | 분석 인사이트 요약                 |
+| ------------------------------------------------------------------------------------------------- | --------------------- | -------------- | -------------------------- |
+| `activity_new`, `date_active`, `date_end`, `date_first_active`, `date_modif_prod`, `date_renewal` | 고객 활동 및 관련 날짜 정보      | 매우 많음 (다수)     | 고유값이 많아 타겟과의 직접 연관성 분석 어려움 |
+| `channel_sales`                                                                                   | 고객 가입 경로              | 7개             | 특정 경로에서 가입하거나 이탈한 고객이 많음   |
+| `has_gas`                                                                                         | 전기 외에 가스 서비스 가입 여부    | 2개 (`0`, `1`)  | 전기만 가입한 고객 수가 더 많음         |
+| `origin_up`                                                                                       | 최초 가입 시 사용한 전기 캠페인 코드 | 5개             | 이탈과 비이탈 간 차이 분석 가능         |
+
+  
+![](https://www.kaggleusercontent.com/kf/249884298/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..S7ubOFvyJyMZbwlZyRkbYw.rKits_cfq7UmIIemmdoI85UdOMV5Zlxvo2FAMU7hi6RGRmMSse_gGdZbCcEpJo2zxBiFCsHhDRoWgq_VgUNVmWss2Y9CSVIfYwLjK10S51b05N0AhVmRegTxnhag92aJqEm6L65CQoZAMj4hK5Xs8UgARWnXA8UcMKGn-az7oGpnyvAFF8vT_vBBEnRTI5dUTO7xlrFMgvzPqYq8nFhz2CxQSuA00BBOLkU48AnGNvx5BkBVFkahaKF63_wZTh9SouiBfaKJTOAzUtDRiXqRwXU_D5cXt2xJQoj4GmDL2RIJjaXhK9yfVPu-ikNw_EsFy9_kDk1q8sju5QJgSC-x19CJhM85bOwwoOpMwqZlx13np6F7s5AgL92MQx5GU9U4PsujDMcyJeAqEmZP54Y3eL8GZvLYOFUZ1J0VsESMyPsvZkpjKLswcutLaYKc6JaabgbQH5f_RlGl-kPSoyHarF20FieJGWndmW2UDZWAzUhBLPCRMwszykfpeNbuBAeGrsVOPeFTpIu3PfJ-VADsWSNcCnAcVQAc6xhH-ELe4JqB1GsJDFHzbWUTaMh4NNFwoaLJ7njX02IOBldYbSfGhM2fSGugHxPRzegegQuFWJXD7Ag2uSclDmxC8Q7CX7nY.9o16I9Wd-RUalkoscYB-RQ/__results___files/__results___16_0.png)
+
+
+- **수치형 데이터**
+
+| 변수명                  | 의미                            | 분석 인사이트 요약                            |
+| -------------------- | ------------------------------- | ----------------------------------------- |
+| `cons_last_month`    | 고객의 **최근 한 달 전기 사용량**           | 이탈 직전 소비량이 적은 고객이 많아, **행동 변화 감지에 효과적**   |
+| `cons_12m`           | 고객의 **최근 12개월간 전기 총사용량**        | 연간 사용량이 적은 고객에서 이탈률 높음. **소규모 사용자 이탈 경향** |
+| `nb_prod_act`        | 고객이 **현재 사용 중인 상품 개수**          | 상품 수가 적을수록 이탈률이 높음. **충성도 및 관여도 반영**      |
+| `net_margin`         | 고객으로부터 얻는 **총 순마진** | 손해 고객에서 이탈률 높음. **고객 수익성과 이탈 연결**         |
+| `margin_net_pow_ele` | 전기 공급을 통한 **전력 가입 순마진**           | 수익이 적을수록 이탈 가능성 높음. **가격 민감도 있는 고객 특성**   |
+| `num_years_antig`    | 고객이 **가입한 이후 경과한 연수**           | 가입 기간이 짧을수록 이탈률 높음. **신규 고객 리스크** 파악 가능   |
+
+  
+![](https://www.kaggleusercontent.com/kf/249884298/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..S7ubOFvyJyMZbwlZyRkbYw.rKits_cfq7UmIIemmdoI85UdOMV5Zlxvo2FAMU7hi6RGRmMSse_gGdZbCcEpJo2zxBiFCsHhDRoWgq_VgUNVmWss2Y9CSVIfYwLjK10S51b05N0AhVmRegTxnhag92aJqEm6L65CQoZAMj4hK5Xs8UgARWnXA8UcMKGn-az7oGpnyvAFF8vT_vBBEnRTI5dUTO7xlrFMgvzPqYq8nFhz2CxQSuA00BBOLkU48AnGNvx5BkBVFkahaKF63_wZTh9SouiBfaKJTOAzUtDRiXqRwXU_D5cXt2xJQoj4GmDL2RIJjaXhK9yfVPu-ikNw_EsFy9_kDk1q8sju5QJgSC-x19CJhM85bOwwoOpMwqZlx13np6F7s5AgL92MQx5GU9U4PsujDMcyJeAqEmZP54Y3eL8GZvLYOFUZ1J0VsESMyPsvZkpjKLswcutLaYKc6JaabgbQH5f_RlGl-kPSoyHarF20FieJGWndmW2UDZWAzUhBLPCRMwszykfpeNbuBAeGrsVOPeFTpIu3PfJ-VADsWSNcCnAcVQAc6xhH-ELe4JqB1GsJDFHzbWUTaMh4NNFwoaLJ7njX02IOBldYbSfGhM2fSGugHxPRzegegQuFWJXD7Ag2uSclDmxC8Q7CX7nY.9o16I9Wd-RUalkoscYB-RQ/__results___files/__results___18_0.png)
+
+- **타겟 (이탈 / 비이탈)**
+    - 타겟 데이터 분포 9:1로 불균형 심함
+      
+![](https://www.kaggleusercontent.com/kf/249884298/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..S7ubOFvyJyMZbwlZyRkbYw.rKits_cfq7UmIIemmdoI85UdOMV5Zlxvo2FAMU7hi6RGRmMSse_gGdZbCcEpJo2zxBiFCsHhDRoWgq_VgUNVmWss2Y9CSVIfYwLjK10S51b05N0AhVmRegTxnhag92aJqEm6L65CQoZAMj4hK5Xs8UgARWnXA8UcMKGn-az7oGpnyvAFF8vT_vBBEnRTI5dUTO7xlrFMgvzPqYq8nFhz2CxQSuA00BBOLkU48AnGNvx5BkBVFkahaKF63_wZTh9SouiBfaKJTOAzUtDRiXqRwXU_D5cXt2xJQoj4GmDL2RIJjaXhK9yfVPu-ikNw_EsFy9_kDk1q8sju5QJgSC-x19CJhM85bOwwoOpMwqZlx13np6F7s5AgL92MQx5GU9U4PsujDMcyJeAqEmZP54Y3eL8GZvLYOFUZ1J0VsESMyPsvZkpjKLswcutLaYKc6JaabgbQH5f_RlGl-kPSoyHarF20FieJGWndmW2UDZWAzUhBLPCRMwszykfpeNbuBAeGrsVOPeFTpIu3PfJ-VADsWSNcCnAcVQAc6xhH-ELe4JqB1GsJDFHzbWUTaMh4NNFwoaLJ7njX02IOBldYbSfGhM2fSGugHxPRzegegQuFWJXD7Ag2uSclDmxC8Q7CX7nY.9o16I9Wd-RUalkoscYB-RQ/__results___files/__results___20_0.png)
+
 
 
 
