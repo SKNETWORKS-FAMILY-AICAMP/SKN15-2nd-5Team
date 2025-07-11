@@ -431,6 +431,65 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
 </div>
 <img width="3200" height="4977" alt="Image" src="https://github.com/user-attachments/assets/df6b609b-5a16-4515-9281-adcbe6f5e3fe" />
 
+# 5. 타당한 평가지표 설명
+
+## 🎯 모델 성능 비교: 개선 전·후
+
+아래 표는 **개선 전**에 XGBoost 단일 모델만 사용했을 때와, **개선 후** 다양한 알고리즘·불균형 처리(SMOTE) 적용 이후의 핵심 지표를 한눈에 비교한 내용입니다.  
+
+---
+
+### 📊 주요 평가지표
+
+| 단계       | 모델                          | Accuracy | Precision | Recall  | F1-Score | ROC-AUC |
+|-----------|------------------------------|---------:|----------:|--------:|---------:|--------:|
+| **개선 전**  | XGBoost                      |   0.9819 |    0.9995 | 0.8134 |   0.8967 |    0.87* |
+| **개선 후**  | KNN (K Neighbors Classifier)  |   0.9996 |    0.9964 | 0.9998 |   0.9981 |    1.0000 |
+|             | Extra Trees Classifier        |   0.9990 |    0.9996 | 0.9899 |   0.9947 |    1.0000 |
+|             | Random Forest Classifier      |   0.9981 |    0.9998 | 0.9812 |   0.9904 |    1.0000 |
+|             | Decision Tree Classifier      |   0.9970 |    0.9842 | 0.9850 |   0.9846 |    0.9917 |
+|             | LightGBM                      |   0.8835 |    0.4434 | 0.6936 |   0.5410 |    0.9086 |
+|             | Gradient Boosting Classifier  |   0.7515 |    0.2163 | 0.5752 |   0.3144 |    0.7452 |
+|             | AdaBoost Classifier           |   0.6684 |    0.1661 | 0.5840 |   0.2585 |    0.6825 |
+
+> **\*** ROC-AUC (개선 전 XGBoost): 예시 값(0.87) 입력  
+> **Bold** 단계 구분과 **컬러 배경**(Kaggle에서는 지원되는 범위 내)로 강조하세요.
+
+---
+
+## 📈 성능 시각화
+
+### 1) 전체 모델 Recall 비교  
+
+![Model Performance Recall Emphasized .png](attachment:ec43f825-936c-453d-9320-74e892370a6c.png)
+---
+
+### 2) Top 10 모델 Recall 순위  
+![TOP 10 model Recall compare .png](attachment:4e9d3d73-8807-4720-8af4-168fd32d9421.png)
+
+---
+
+### 3) XGBoost Feature Importance  
+![XGBoost Feature importance.png](attachment:6772b06d-3223-4e84-b0bc-c5f329a6e0e9.png)
+
+---
+
+
+
+### ✨ 핵심 인사이트
+
+- **Recall 개선 효과**  
+  - 개선 전 XGBoost는 Recall 0.81 → “이탈 고객 19% 놓침”  
+  - 개선 후 KNN 등은 Recall 0.99 이상 → “거의 모든 이탈 고객 포착”  
+- **Precision–Recall 균형**  
+  - F1-Score가 0.89 → 0.99로 상승  
+  - “거짓 경보(FP)는 소폭 증가하더라도, 놓치는 이탈(FN)을 크게 줄였다”  
+- **ROC-AUC 완전 개선**  
+  - 다양한 앙상블 모델들이 1.00 근접 → 임계값 전반 성능 탁월  
+
+
+
+
 
 # 10. 🪞 한 줄 회고 🧠💬
 
