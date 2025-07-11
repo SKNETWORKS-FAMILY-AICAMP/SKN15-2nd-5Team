@@ -7,7 +7,7 @@
 |--|--|--|--|--|
 | @AQUAQUA5 | @dowonk120 | @Rr-EJ | @solchna | @minnnsik |
 |  |
-| Project Leader |  |  |  |  |
+| Project Leader |  
 
 
 
