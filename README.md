@@ -140,7 +140,9 @@ Figure 1. Europe’s power price divide hits southeastern economies Source: Reut
             <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">칼럼명</th>
             <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">의미</th>
             <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">타입</th>
-            <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">결측치<br>비율</th>
+            <th style="padding: 7px; border: 1px solid #ddd; text-align: 
+left;">단위</th>
+            <th style="padding: 7px; border: 1px solid #ddd; text-align:     center;">결측치<br>비율</th>
             <th style="padding: 7px; border: 1px solid #ddd; text-align: center;">카디널리티</th>
             <th style="padding: 7px; border: 1px solid #ddd; text-align: left;">해결 방안</th>
         </tr>
