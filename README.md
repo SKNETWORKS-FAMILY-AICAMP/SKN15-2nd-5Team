@@ -32,9 +32,11 @@
 파워코(PowerCo)는 BCG의 클라이언트로, 중소기업(SME)과 주거 고객에게 가스와 전기를 공급하는 에너지 회사입니다.  
 최근 유럽 시장의 전력 자유화(Power Liberalization)와 가격 경쟁 심화로, 특히 SME 고객층에서 고객 이탈(Churn)률이 증가하고 있습니다.
 
-<img width="659" alt="reuter-1" src="https://github.com/user-attachments/assets/eda46139-5a46-462e-b157-9920afbfc204" />
+<img width="898" height="908" alt="스크린샷 2025-07-11 15 10 42" src="https://github.com/user-attachments/assets/dd5e1c58-da21-4076-b320-896ae95569ce" />
 
-*Figure 1. Europe’s power price divide hits southeastern economies (Reuters, 2025년 4월 24일)*
+
+* nnogy’s UK arm npower lost 155,000 domestic customers in 2017  Reuters, 2018년 3월 13일) *
+  이노지(Innogy)의 영국 자회사 엔파워(npower), 2017년에 요금인상 및  요금구조 변화에 따른  15만 5천 가정 고객 손실 
 
 ### 주요 배경 현황
 
