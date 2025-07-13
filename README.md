@@ -184,12 +184,12 @@ $$
 $$ 
 
 $$
-= Recall + \frac{1}{(r - c)} ( Recall- \frac{Recall}{Precision}) \; 
+= Recall + \frac{1}{(r - c)} ( Recall- \frac{Recall}{Precision}) \ 
 $$
 
 
 $$
-이때, \; \frac{1}{(r - c)} \approx 0 \,\,이니
+이때,  \frac{1}{(r - c)} \approx 0 이니
 $$
 $$
 = Recall + \frac{1}{(r - c)} ( Recall- \frac{Recall}{Precision}) \approx Recall
