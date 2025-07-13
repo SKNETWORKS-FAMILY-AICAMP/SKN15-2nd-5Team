@@ -168,19 +168,34 @@ PowerCo는 전력 시장 자유화, 가격 민감도 증가 등 환경 변화로
 이탈할 것으로 예측되는 고객에게 20퍼센트 할인을 하여 이탈을 막는 것이 목표이다.  
 사용시 이윤이 큰 모델이 가장 좋은 모델이다. 따라서 평가지표는 다음과 같다.
 
+r = 고객 1명당 마케팅으로 인한 매출 증가량  
+c = 고객 1명당 마케팅 비용
+
+
+
 $$
-\frac{\text{예측 이윤}}{\text{정확하게 예측시 이윤}} = 
-\frac{\text{실제이탈자 수 * 매출 - 총 마케팅비용 }}{\text{실제 이탈자 수 * (매출-마케팅비용)}}
+\frac{\text{모델의 예측에 따른 이윤}}{\text{정확하게 예측 시 이윤}} = 
+\frac{{r \times (이탈예측\,중\,실제이탈\,수) - c \times (이탈예측 \,수)}}{{( r-c )\times(실제이탈\,수)}}
 $$
 
 
 $$
-\frac{TP * r  - ( TP + FP ) * c}{TP(r - c)}
+\frac{TP \times r  - ( TP + FP ) \times c}{(TP+FN)(r - c)}
 $$ 
 
 $$
-= 1 - \frac{FP * c}  {TP(r - c)} \approx Recall
+= Recall + \frac{1}{(r - c)} ( Recall- \frac{Recall}{Precision}) \; 
 $$
+
+
+$$
+이때, \; \frac{1}{(r - c)} \approx 0 \,\,이니
+$$
+$$
+= Recall + \frac{1}{(r - c)} ( Recall- \frac{Recall}{Precision}) \approx Recall
+$$
+
+
 
 따라서 Recall이 높은 모델을 목표로 진행한다.
 
