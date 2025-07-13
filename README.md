@@ -168,6 +168,7 @@ PowerCo는 전력 시장 자유화, 가격 민감도 증가 등 환경 변화로
 이탈할 것으로 예측되는 고객에게 20퍼센트 할인을 하여 이탈을 막는 것이 목표이다.  
 사용시 이윤이 큰 모델이 가장 좋은 모델이다. 따라서 평가지표는 다음과 같다.
 
+<<<<<<< HEAD
 r = 고객 1명당 마케팅으로 인한 매출 증가량  
 c = 고객 1명당 마케팅 비용
 
@@ -373,6 +374,198 @@ autoML을 사용했다.
 
 **👉 즉, 상위 몇 개 feature가 전체 모델에 비해 상대적으로 더 많이 사용되거나 중요**
 
+=======
+$$
+\frac{\text{예측 이윤}}{\text{정확하게 예측시 이윤}} = 
+\frac{\text{실제이탈자 수 * 매출 - 총 마케팅비용 }}{\text{실제 이탈자 수 * (매출-마케팅비용)}}
+$$
+
+
+$$
+\frac{TP * r  - ( TP + FP ) * c}{TP(r - c)}
+$$ 
+
+$$
+= 1 - \frac{FP * c}  {TP(r - c)} \approx Recall
+$$
+
+따라서 Recall이 높은 모델을 목표로 진행한다.
+
+## 6. EDA
+
+결측치 70% 이상 칼럼 제거  
+고객 회사 활동, 고객이 가입한 캠페인 칼럼은 오브젝트 형이므로 결측치를 새로운 카테고리로 분류한다.   
+
+카테고리를 원핫 인코딩하면 카테고리간의 유사성을 고려하지 못한다.  
+이를테면   
+```관광업```과 ```머신러닝 사업``` 간의 거리 = ```머신러닝 사업```과 ```딥러닝 사업```간의 거리  
+로 인식하게 된다.  
+따라서 카테고리는 단어의 유사성을 반영하느 워드 임베딩한다.  
+
+날짜를 정수로 변환  
+
+date_end 칼럼의 결측치 : ```계약시작일``` + ```평균 계약기간```으로 설정
+```
+이탈 = clean[clean['churn'] == 1]
+유지 = clean[clean['churn'] == 0]
+
+m = int((유지["date_end"] - 유지["date_activ"]).mean())
+mask = clean["date_end"].isna()
+clean.loc[mask, "date_end"] = clean.loc[mask, "date_activ"] + m
+```
+날짜 칼럼들은 데이터 제약 조건이 있다.  
+예를들어 계약 시작일은 반드시 계약 종료일보다 빨라야한다.  
+이러한 데이터 제약조건을 만족하면서 결측치를 채운다.  
+
+이 데이터셋의 조건은
+> date_activ, date_renewal <= date_end
+
+날짜형 칼럼만 살펴본다.
+|   | date_activ | date_end | date_modif_prod | date_renewal |
+|---|------------|----------|-----------------|--------------|
+| 0 | 4694       | 6154     | 4694            | 5791         |
+| 1 | 4914       | 6010     | <NA>            | 5652         |
+| 2 | 3520       | 6086     | 3520            | 5721         |
+| 3 | 3758       | 5950     | 3758            | 5585         |
+| 4 | 3741       | 5933     | 3741            | 5568         |
+
+date_activ와 date_modif_prod가 같은 데이터들이 간혹 있다.
+```
+#비이탈자들의 date_modif_prod - date_activ
+lt_0 = clean[clean["churn"]==0]["date_modif_prod"] - clean[clean["churn"]==0]["date_activ"]
+print(f"비이탈자 소요시간 0의 비율: {(lt_0== 0).sum() / lt_0.shape[0]:.4f}")
+
+#이탈자들의 date_modif_prod - date_activ
+lt_1 = clean[clean["churn"]==1]["date_modif_prod"] - clean[clean["churn"]==1]["date_activ"]
+print(f"이탈자 소요시간 0의 비율: {(lt_1== 0).sum() / lt_1.shape[0]:.4f}")
+```
+비이탈자 소요시간 0의 비율: 0.5034   
+이탈자 소요시간 0의 비율: 0.4301
+상품 수정까지의 소요시간이 7%p 차이나는 것을 확인
+
+이를 고려하여 결측치를 채운다.
+```
+#이것을 고려하여 결측치를 채움
+import numpy as np
+lt_0_rat = 0.5034
+lt_0_mean = 1432
+
+lt_1_rat = 0.4301
+lt_1_mean = 1266
+
+#비이탈자에서 0의 비율만큼 0 할당 
+mask = clean['date_modif_prod'].isna() & (clean['churn'] == 0)
+na_idx = clean[mask].index
+n_total = len(na_idx)
+n_zero = int(n_total * lt_0_rat)
+zero_idx = np.random.choice(na_idx, size=n_zero, replace=False)
+clean.loc[zero_idx, 'date_modif_prod'] = 0
+
+#비이탈자에서 나머지는 date_activ+평균으로 할당
+mask = clean["date_modif_prod"].isna() & (clean["churn"] == 0)
+clean.loc[mask, "date_modif_prod"] = clean.loc[mask, "date_activ"] + lt_0_mean
+
+
+#이탈자에서 0의 비율만큼 0 할당 
+mask = clean['date_modif_prod'].isna() & (clean['churn'] == 1)
+na_idx = clean[mask].index
+n_total = len(na_idx)
+n_zero = int(n_total * lt_1_rat)
+zero_idx = np.random.choice(na_idx, size=n_zero, replace=False)
+clean.loc[zero_idx, 'date_modif_prod'] = 0
+
+#비이탈자에서 나머지는 date_activ+평균으로 할당
+mask = clean["date_modif_prod"].isna() & (clean["churn"] == 1)
+clean.loc[mask, "date_modif_prod"] = clean.loc[mask, "date_activ"] + lt_1_mean
+```
+
+date_renewal은 특별한 특성이 없으니 데이터 조건을 만족하게끔 결측치 완성
+
+데이터 조건 : ```date_activ, date_renewal <= date_end```
+dr = (1- (dr-de / de-da)mean) *de
+```
+mean = ((clean["date_renewal"] - clean["date_end"]) / (clean["date_end"] - clean["date_activ"])).mean()
+mask = clean["date_renewal"].isna()
+clean.loc[mask, "date_renewal"] = ((1 - mean) * clean.loc[mask, "date_end"]).astype(int)
+```
+
+## 7. 데이터 증강 후 모델별 성능 비교
+
+SMOTE으로 데이터를 증강한다.
+
+```
+TransformerWrapper(exclude=None, include=None, transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5, random_state=42, sampling_strategy='auto')))
+```
+KNN, K=5 사용
+
+| Description                 | Value            |
+|:----------------------------|:-----------------|
+| Session id                  | 42               |
+| Target                      | churn            |
+| Target type                 | Binary           |
+| Original data shape         | (193002, 29)     |
+| Transformed data shape      | (301351, 40)     |
+| Transformed train set shape | (243450, 40)     |
+| Transformed test set shape  | (57901, 40)      |
+| Numeric features            | 24               |
+| Categorical features        | 4                |
+| Preprocess                  | True             |
+| Imputation type             | simple           |
+| Numeric imputation          | mean             |
+| Categorical imputation      | mode             |
+| Maximum one-hot encoding    | 25               |
+| Encoding method             | None             |
+| Fix imbalance               | True             |
+| Fix imbalance method        | SMOTE            |
+| Fold Generator              | StratifiedKFold  |
+| Fold Number                 | 10               |
+| Log Experiment              | False            |
+| Experiment Name             | clf-default-name |
+| USI                         | cbd6             |
+
+최종 학습 데이터의 형태는 위와 같다.
+XGBoost, CatBoost, LightGBM을 포함한 16종의 머신러닝의 성능을 비교한다.
+
+| Model               | Accuracy |   AUC  | Recall | Precision |   F1   | Kappa  |  MCC   | TT (Sec) |
+|:--------------------|---------:|-------:|-------:|----------:|-------:|-------:|-------:|---------:|
+| KNN                 | 0.9996   | 1.0000 | 1.0000 | 0.9961    | 0.9980 | 0.9978 | 0.9978 |   3.386  |
+| Random Forest       | 0.9999   | 1.0000 | 0.9993 | 0.9999    | 0.9988 | 0.9998 | 0.9996 |   6.533  |
+| Extra Trees         | 0.9998   | 1.0000 | 0.9981 | 0.9999    | 0.9990 | 0.9989 | 0.9989 |   7.581  |
+| Decision Tree       | 0.9985   | 0.9961 | 0.9931 | 0.9916    | 0.9924 | 0.9915 | 0.9915 |   1.033  |
+| CatBoost            | 0.9941   | 0.9992 | 0.9822 | 0.9594    | 0.9707 | 0.9674 | 0.9675 |  44.064  |
+| XGBoost             | 0.9649   | 0.9887 | 0.9132 | 0.7736    | 0.8375 | 0.8180 | 0.8216 |   1.647  |
+| Dummy Classifier    | 0.9010   | 0.5000 | 0.0000 | 0.0000    | 0.0000 | 0.0000 | 0.0000 |   0.656  |
+| LightGBM            | 0.8880   | 0.9285 | 0.7693 | 0.4608    | 0.5763 | 0.5164 | 0.5390 | 117.068  |
+| Gradient Boosting   | 0.7546   | 0.7797 | 0.6388 | 0.2318    | 0.3401 | 0.2280 | 0.2723 |  10.997  |
+| AdaBoost            | 0.6875   | 0.7233 | 0.6255 | 0.1836    | 0.2839 | 0.1544 | 0.2021 |   3.075  |
+| LDA                 | 0.6108   | 0.6777 | 0.6426 | 0.1524    | 0.2464 | 0.1028 | 0.1514 |   1.468  |
+| Ridge Classifier    | 0.6106   | 0.6777 | 0.6429 | 0.1524    | 0.2464 | 0.1028 | 0.1514 |   0.411  |
+| SVM (Linear)        | 0.5563   | 0.5565 | 0.4962 | 0.1376    | 0.1653 | 0.0314 | 0.0470 |   1.827  |
+| Logistic Regression | 0.5548   | 0.6182 | 0.6238 | 0.1315    | 0.2172 | 0.0641 | 0.1023 |   6.559  |
+| Naive Bayes         | 0.2164   | 0.6026 | 0.9234 | 0.1054    | 0.1892 | 0.0140 | 0.0548 |   0.384  |
+| QDA                 | 0.1449   | 0.5936 | 0.9863 | 0.1026    | 0.1859 | 0.0080 | 0.0557 |   1.069  |
+
+autoML을 사용했다.
+
+
+
+## 8. 결과물을 이용한 마케팅의 가치 평가
+
+### 📊 그래프 해석: 전반적인 구조
+
+중요도 상위 3개:
+
+1. **origin_up**...(원핫 인코딩) : 처음 가입한 전기 캠페인
+
+2. **margin_net_pow_ele** : 전력 가입 순마진
+
+3. **cons_last_month** :직전 월 소비량
+
+
+
+**👉 즉, 상위 몇 개 feature가 전체 모델에 비해 상대적으로 더 많이 사용되거나 중요**
+
+>>>>>>> p2/main
 
 
 
